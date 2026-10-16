@@ -2,17 +2,6 @@
 
 A public web map of defibrillator coverage across TN1–TN4 and TN9–TN12. It shows where new 24/7 units, or opening existing units 24/7, would bring the most residents within reach. It rebuilds itself every time you upload a new register file.
 
-## One-off setup (about 10 minutes, free)
-
-1. Create a free account at https://github.com/signup. A group email such as `ttwcfr@…` is best, so the account isn't tied to one person.
-2. Create a new **public** repository called `ttw-cfr-aed-map` (top-right **+** → **New repository**). Don't add a README.
-3. Upload the files: on the empty repository page click **uploading an existing file**. Drag in **everything inside** the `ttw-cfr-aed-map` folder (`data`, `docs`, `scripts`, `.github`, `README.md`, `requirements.txt`), then click **Commit changes**.
-   *On a Mac, press Cmd+Shift+. in Finder so the hidden `.github` folder is visible before you drag.*
-4. Turn on the website: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main`, folder `/docs` → Save**.
-5. Let the rebuild job write to the repo: **Settings → Actions → General → Workflow permissions → Read and write permissions → Save**.
-
-After a minute or two the map is live at `https://<your-account>.github.io/ttw-cfr-aed-map/`. Bookmark it and share it.
-
 ## Every month
 
 1. Download the latest national defibrillator extract (the `.xlsx` or `.csv` file).
