@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TTW CFR Defibrillator Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="icon" href="__FAVICON__">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+/*LEAFLET_CSS*/
+/* Layout: slate brand bar (reversed landscape logo, gold double rule, one gold heart trace); white/mist analysis rail; map fills the rest. Phones: map first. */
+:root{
+  --navy:#174882; --forest:#084121; --indigo:#312783; --slate:#425664; --gold:#FAB724; --mist:#EEF1F3; --red:#C20114;
+  --navy-75:#51769F; --navy-50:#8BA3C1; --navy-25:#C5D1E0; --slate-50:#A0AAB2; --slate-25:#D0D5D8; --forest-50:#83A090;
+  --bg:#FFFFFF; --ink:var(--slate); --head:var(--navy); --line:#DCE1E5;
+  --font:"Avenir Next",Avenir,"Nunito Sans","Segoe UI",Arial,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:14px;line-height:1.5;font-weight:400}
+.app{display:flex;flex-direction:column;height:100%}
+.bar{display:flex;align-items:center;gap:18px 26px;padding-block:12px;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px));background:var(--slate);color:#fff;flex-wrap:wrap}
+.lockup{display:flex;align-items:center;gap:14px;text-decoration:none;color:#fff;flex:none}
+.lockup img{width:56px;height:56px;display:block}
+.wm{border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);padding:5px 2px 4px;line-height:1.08}
+.wm b{display:block;font-weight:600;font-size:1.02rem;letter-spacing:.005em}
+.wm span{display:block;color:var(--gold);font-size:.82rem;font-weight:400;margin-top:3px}
+.ttl{flex:1;min-width:0;display:flex;align-items:center;gap:14px}
+.ttl svg{width:84px;height:30px;flex:none}
+.ttl h1{font-size:1.5rem;font-weight:800;margin:0;line-height:1.1;letter-spacing:-.005em;text-wrap:balance}
+.ttl p{margin:2px 0 0;font-size:.84rem;color:#E3E8EC}
+.upd{font-size:.78rem;color:#E3E8EC;text-align:right}
+.upd b{color:#fff;font-weight:600}
+.layout{flex:1;display:grid;grid-template-columns:minmax(320px,420px) 1fr;min-height:0}
+.panel{overflow-y:auto;border-right:1px solid var(--line);background:var(--bg);padding-block:6px 0;display:flex;flex-direction:column;min-width:0}
+.panel>section{padding-block:16px 20px;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:18px}
+.panel>section.alt{background:var(--mist)}
+#map{min-height:0;background:#EEF0EC}
+@media (max-width:860px){
+  html,body,.app{height:auto}
+  .layout{display:flex;flex-direction:column}
+  #map{height:64vh;flex:none;order:-1}
+  .panel{border-right:0}
+  .panel>section{padding-right:max(18px,env(safe-area-inset-right,0px))}
+  .ttl svg{display:none}
+  .ttl{flex:1 1 100%}
+  .ttl h1{font-size:1.3rem}
+  .upd{text-align:left;width:100%}
+}
+h2{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--forest);margin:0 0 12px;font-weight:600;border-top:1px solid var(--forest);border-bottom:1px solid var(--forest);padding:6px 0 5px}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.kpi{background:var(--mist);padding:11px 12px}
+.panel>section.alt .kpi{background:#fff}
+.kpi b{display:block;font-size:1.85rem;font-weight:800;color:var(--navy);font-variant-numeric:tabular-nums;line-height:1.05}
+.kpi span{font-size:.78rem;color:var(--slate)}
+.kpi.hl{background:var(--navy)}
+.kpi.hl b{color:#fff}.kpi.hl span{color:#fff}
+.lede{margin:12px 0 0;font-size:.86rem}
+.tw{overflow-x:auto;margin-top:12px}
+table.cov{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:.8rem}
+table.cov th{font-weight:600;color:var(--navy);text-align:right;padding:4px 6px;border-bottom:2px solid var(--navy)}
+table.cov th:first-child,table.cov td:first-child{text-align:left}
+table.cov td{padding:4px 6px;text-align:right;border-bottom:1px solid var(--line)}
+table.cov td b{color:var(--navy)}
+table.cov td.c{position:relative}
+table.cov td.c i{position:absolute;left:5px;right:5px;bottom:2px;height:3px;background:var(--slate-25)}
+table.cov td.c i u{display:block;height:100%;background:var(--navy)}
+table.cov tr.tot td{font-weight:700;color:var(--navy);border-bottom:0}
+table.cov tr[data-d]{cursor:pointer}
+table.cov tr[data-d]:hover td,table.cov tr[data-d]:focus-visible td{background:var(--mist);outline:none}
+.steps{display:flex;flex-direction:column;gap:9px}
+.step{display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:3px 10px;align-items:center;font-size:.83rem}
+.step .b2{grid-column:1/-1;height:10px;background:#fff;display:flex;box-shadow:inset 0 0 0 1px var(--line)}
+.step .b2 i{display:block;height:100%}
+.step b{text-align:right;font-variant-numeric:tabular-nums;color:var(--navy);font-weight:800}
+.note{font-size:.76rem;color:var(--slate)}
+.layers{display:flex;flex-direction:column;gap:1px}
+.layer{display:grid;grid-template-columns:20px 1fr;gap:8px;align-items:start;padding:6px 4px;cursor:pointer}
+.layer:hover{background:var(--mist)}
+.layer input{margin:3px 0 0;accent-color:var(--navy)}
+.layer .nm{font-weight:600;font-size:.88rem;color:var(--navy)}
+.layer .ds{font-size:.76rem}
+.ramp{height:8px;margin-top:5px}
+.ramp-lbl{display:flex;justify-content:space-between;font-size:.7rem;margin-top:2px}
+.dots{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:5px;font-size:.75rem}
+.dot{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;margin-right:4px;border:1.5px solid #fff;box-shadow:0 0 0 1px rgba(66,86,100,.6)}
+.seg{display:flex;border:1px solid var(--navy);overflow:hidden;margin-bottom:8px}
+.seg button{flex:1;border:0;background:#fff;color:var(--navy);font:inherit;font-size:.8rem;font-weight:600;padding:6px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--navy);color:#fff}
+.seg button:focus-visible{outline:2px solid var(--indigo);outline-offset:-3px}
+ol.list{list-style:none;margin:0;padding:0}
+ol.list li{display:grid;grid-template-columns:30px 1fr auto;gap:10px;align-items:center;padding:8px 6px;cursor:pointer;border-bottom:1px solid var(--line)}
+ol.list li:hover,ol.list li:focus-visible{background:var(--mist);outline:none}
+ol.list li:focus-visible{box-shadow:inset 0 0 0 2px var(--navy)}
+.rk{width:26px;height:26px;border-radius:50%;background:var(--slate);color:var(--gold);display:grid;place-items:center;font-weight:800;font-size:.85rem;box-shadow:0 0 0 2px var(--gold)}
+.rk.u{border-radius:2px;background:var(--navy);color:#fff;box-shadow:none;font-size:.74rem}
+.st{min-width:0}
+.st b{display:block;font-size:.9rem;font-weight:600;color:var(--navy)}
+.st span{font-size:.75rem}
+.num{text-align:right;font-variant-numeric:tabular-nums;font-weight:800;font-size:.95rem;color:var(--navy)}
+.num small{display:block;font-weight:400;font-size:.68rem;color:var(--slate)}
+details summary{cursor:pointer;font-weight:600;font-size:.88rem;color:var(--navy)}
+details p,details li{font-size:.8rem;max-width:65ch}
+details ul{padding-left:18px;margin:6px 0}
+.emer{color:var(--red);font-weight:800;font-size:1.05rem;margin:0 0 4px}
+.foot{padding-block:14px 26px;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:18px;border-top:1px solid var(--forest);font-size:.74rem;color:var(--slate)}
+.foot a{color:var(--navy)}
+.spark{width:100%;height:46px;display:block;margin-top:6px}
+.leaflet-container{font-family:var(--font)}
+.leaflet-popup-content{margin:10px 12px;font-size:.82rem;line-height:1.4;color:var(--slate)}
+.leaflet-popup-content b{font-size:.9rem;color:var(--navy)}
+.tag{display:inline-block;font-size:.7rem;padding:1px 6px;background:var(--mist);color:var(--slate);margin:3px 4px 0 0}
+.plabel{color:#1F2A33;font-weight:700;white-space:nowrap;text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 2px #fff;pointer-events:none;transform:translate(-50%,-50%);display:inline-block;font-family:var(--font)}
+.plabel.town{font-size:15px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+.plabel.village,.plabel.suburb{font-size:12.5px}
+.plabel.hamlet,.plabel.neighbourhood,.plabel.locality{font-size:11px;font-weight:600;color:#3E4A52}
+.dlabel{font-weight:800;font-size:26px;color:rgba(23,72,130,.33);pointer-events:none;transform:translate(-50%,-50%);display:inline-block;letter-spacing:.03em;font-family:var(--font)}
+.stn{font-size:11px;font-weight:700;color:#1F2A33;white-space:nowrap;text-shadow:0 0 3px #fff,0 0 3px #fff;pointer-events:none;display:inline-flex;align-items:center;gap:4px;transform:translate(-6px,-50%)}
+.stn i{width:10px;height:10px;background:#425664;border:2px solid #fff;border-radius:2px;box-shadow:0 0 0 1px #425664;flex:none}
+.pin{width:28px;height:28px;border-radius:50%;background:#425664;color:#FAB724;display:grid;place-items:center;font-weight:800;font-size:13px;box-shadow:0 0 0 3px #FAB724,0 0 0 4.5px #fff,0 2px 6px rgba(0,0,0,.4);font-family:var(--font)}
+.pin.u{border-radius:3px;background:#174882;color:#fff;width:24px;height:24px;font-size:11px;box-shadow:0 0 0 2px #fff,0 2px 5px rgba(0,0,0,.4)}
+.muted .leaflet-tile-pane{filter:grayscale(.85) contrast(.95) brightness(1.06)}
+.err{padding:20px;font-size:.9rem}
+@media (prefers-reduced-motion: reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>/*EMBED*/</script>
+</head>
+<body>
+<div class="app">
+  <header class="bar">
+    <a class="lockup" href="https://www.ttwcfr.com" target="_blank" rel="noopener" aria-label="Tonbridge &amp; Tunbridge Wells Community First Responders (opens ttwcfr.com)">
+      <img src="__LOGO__" alt="" width="56" height="56">
+      <div class="wm"><b>Tonbridge &amp;<br>Tunbridge Wells</b><span>Community First Responders</span></div>
+    </a>
+    <div class="ttl">
+      <svg viewBox="0 0 84 30" aria-hidden="true"><path d="M0 18 H24 L27 15 L30 18 H36 L38 21 L41 3 L44 27 L46 18 H50 Q54 6 58 18 H62 L64 16 L66 18 H84" fill="none" stroke="#FAB724" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <div><h1>Defibrillator map</h1><p>Public access defibrillator cover and gaps across TN1–TN4 and TN9–TN12</p></div>
+    </div>
+    <div class="upd" id="upd"></div>
+  </header>
+  <div class="layout">
+    <aside class="panel" id="panel">
+      <section>
+        <h2>Current cover</h2>
+        <div class="kpis" id="kpis"></div>
+        <p class="lede" id="lede"></p>
+        <div class="tw"><table class="cov" id="covtab"></table></div>
+        <p class="note" style="margin:6px 0 0">Residents within each distance of a public 24/7 defibrillator. Tap a district to zoom to it.</p>
+      </section>
+
+      <section id="trendsec" class="alt" hidden>
+        <h2>Month by month</h2>
+        <svg class="spark" id="spark" viewBox="0 0 300 46" preserveAspectRatio="none"></svg>
+        <p class="note" id="trendtxt" style="margin:4px 0 0"></p>
+      </section>
+
+      <section class="alt">
+        <h2>What the recommendations achieve</h2>
+        <div class="steps" id="steps"></div>
+        <p class="note" style="margin:8px 0 0">Residents within 200 m of a public 24/7 defibrillator after each step.</p>
+      </section>
+
+      <section>
+        <h2>Map</h2>
+        <div class="seg" role="group" aria-label="Base map">
+          <button type="button" id="bm-detail" aria-pressed="true">Detailed map</button>
+          <button type="button" id="bm-muted" aria-pressed="false">Muted map</button>
+        </div>
+        <div class="layers">
+          <label class="layer"><input type="radio" name="surf" id="l-need" checked><div><div class="nm">Where a new AED would help most</div><div class="ds">Residents a new 24/7 unit here would bring within reach, weighted for age and deprivation</div><div class="ramp" style="background:linear-gradient(90deg,rgba(197,209,224,.35),#8BA3C1,#51769F,#174882,#312783)"></div><div class="ramp-lbl"><span>Low impact</span><span>Highest impact</span></div></div></label>
+          <label class="layer"><input type="radio" name="surf" id="l-unmet"><div><div class="nm">Unmet need</div><div class="ds">Residents not within reach of an available AED</div><div class="ramp" style="background:linear-gradient(90deg,rgba(197,209,224,.35),#8BA3C1,#51769F,#174882,#312783)"></div><div class="ramp-lbl"><span>Low</span><span>High</span></div></div></label>
+          <label class="layer"><input type="radio" name="surf" id="l-dens"><div><div class="nm">Population density (100 m)</div><div class="ds">Census 2021 residents placed at their postcodes</div><div class="ramp" style="background:linear-gradient(90deg,rgba(152,147,193,.25),#9893C1,#645DA2,#312783)"></div><div class="ramp-lbl"><span>0</span><span id="dmax"></span></div></div></label>
+          <label class="layer"><input type="radio" name="surf" id="l-oa"><div><div class="nm">Population density (Output Areas)</div><div class="ds">Census 2021 Output Areas, residents per km²</div><div class="dots" id="oaleg"></div></div></label>
+          <label class="layer"><input type="radio" name="surf" id="l-cov"><div><div class="nm">Existing AED reach</div><div class="ds">Chance a bystander can fetch an available AED in time</div><div class="ramp" style="background:linear-gradient(90deg,rgba(131,160,144,.2),#83A090,#084121)"></div><div class="ramp-lbl"><span>Low</span><span>High</span></div></div></label>
+          <label class="layer"><input type="radio" name="surf" id="l-none"><div><div class="nm">No overlay</div></div></label>
+          <hr style="border:0;border-top:1px solid var(--line);margin:6px 0">
+          <label class="layer"><input type="checkbox" id="l-aed" checked><div><div class="nm">Registered defibrillators</div><div class="dots"><span><i class="dot" style="background:#084121"></i>Public 24/7</span><span><i class="dot" style="background:#312783"></i>Public, limited hours</span><span><i class="dot" style="background:#fff;box-shadow:0 0 0 1.5px #425664"></i>Restricted</span></div></div></label>
+          <label class="layer"><input type="checkbox" id="l-ring"><div><div class="nm">200 m reach rings</div><div class="ds">Around public defibrillators</div></div></label>
+          <label class="layer"><input type="checkbox" id="l-sites" checked><div><div class="nm">Recommended new locations</div><div class="ds">Numbered in priority order</div></div></label>
+          <label class="layer"><input type="checkbox" id="l-ups" checked><div><div class="nm">Existing units to open 24/7</div><div class="ds">Restricted or limited-hours units in high-need spots</div></div></label>
+          <label class="layer"><input type="checkbox" id="l-dist" checked><div><div class="nm">Postcode districts</div></div></label>
+        </div>
+      </section>
+
+      <section>
+        <h2>Recommended new 24/7 locations</h2>
+        <p class="note" style="margin:0 0 6px">Picked one at a time, each assuming the quick wins and earlier sites are in place. Figure is residents newly within 200 m.</p>
+        <ol class="list" id="sites"></ol>
+      </section>
+
+      <section class="alt">
+        <h2>Quick wins: open existing units 24/7</h2>
+        <p class="note" style="margin:0 0 6px">Moving these to an external, unlocked cabinet adds cover for far less than a new unit.</p>
+        <ol class="list" id="ups"></ol>
+      </section>
+
+      <section class="alt">
+        <p class="emer">In an emergency always dial 999</p>
+        <p class="note" style="margin:0">The 999 call handler can tell you where the nearest available defibrillator is and give you any cabinet code.</p>
+      </section>
+
+      <section>
+        <details>
+          <summary>Method and assumptions</summary>
+          <ul>
+            <li><b>Defibrillators:</b> the latest national register extract (The Circuit). Units up to 3 km outside the area are kept because they cover border streets.</li>
+            <li><b>Population:</b> Census 2021 usual residents and residents aged 65+ for every Output Area, spread across each area's residential postcodes so people sit where homes are, then mapped on a 100 m grid. Only postcodes in TN1–TN4 and TN9–TN12 are counted.</li>
+            <li><b>Area boundary:</b> postcode district outlines are drawn from ONS postcode centroids, so edges are approximate.</li>
+            <li><b>Retrieval distance:</b> Resuscitation Council UK advises an AED no more than a 2-minute brisk walk away (about 100 m); most ambulance services use at least 200 m when directing callers to one. Retrieval is modelled as halving with every 100 m walked, with straight-line distance stretched by 25% for real routes.</li>
+            <li><b>Availability:</b> public 24/7 units count in full, public limited-hours units at 35%, restricted units not at all.</li>
+            <li><b>Risk weighting:</b> residents aged 65+ count 3.5×, and a deprivation uplift of up to 1.5× comes from the 2025 Index of Multiple Deprivation.</li>
+          </ul>
+          <p><b>Limits:</b> the model uses where people live, so daytime footfall (town centres, stations, sports grounds) is not captured. Check every suggested spot on the ground for a safe, lit, accessible wall and a power supply.</p>
+          <p class="note">Sources: The Circuit national defibrillator network; ONS Census 2021 via Nomis; ONS Postcode Directory and Output Area boundaries; OS Open Roads (contains OS data © Crown copyright and database right 2026); © OpenStreetMap contributors; Deakin et al., <i>Heart</i> 2018;104:1339–43.</p>
+        </details>
+      </section>
+      <footer class="foot">A registered charity (1194244) providing trained volunteer first responders in the local community on behalf of South East Coast Ambulance Service NHS Foundation Trust. <a href="https://www.ttwcfr.com" target="_blank" rel="noopener">www.ttwcfr.com</a></footer>
+    </aside>
+    <div id="map" role="region" aria-label="Map of defibrillator coverage and need"></div>
+  </div>
+</div>
+<script>
+(async function(){
+const E=window.EMBED;
+async function J(p){const r=await fetch('data/'+p,{cache:'no-cache'});if(!r.ok)throw new Error(p+' '+r.status);return r.json();}
+let S,AED,SITES,UPS,DIST,OAS,RAS,BASE;
+try{
+  if(E){S=E.summary;AED=E.aeds;SITES=E.sites;UPS=E.ups;DIST=E.districts;OAS=E.oas;RAS=E.rasters;BASE=E.base;}
+  else{[S,AED,SITES,UPS,DIST]=await Promise.all(['summary.json','defibrillators.geojson','priority_sites.geojson','quick_wins.geojson','postcode_districts.geojson'].map(J));
+       RAS={need:'data/need.png',unmet:'data/unmet.png',coverage:'data/coverage.png',density:'data/density.png'};}
+}catch(e){document.getElementById('panel').innerHTML='<p class="err">The map data could not be loaded ('+e.message+'). If you have just uploaded a new file, wait a few minutes for the rebuild to finish, then refresh.</p>';return;}
+
+const fmt=n=>Math.round(n).toLocaleString('en-GB'), pct=x=>Math.round(x*100)+'%';
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const C=S.counts, st=S.stats, tot=S.residents, totA=C.public247+C.publicvar+C.restricted;
+const ed=S.extract_date?new Date(S.extract_date).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'}):null;
+document.getElementById('upd').innerHTML=`Register extract: <b>${esc(ed||S.source_file)}</b><br>Map built ${esc(S.built)}`;
+
+document.getElementById('kpis').innerHTML=
+ `<div class="kpi"><b>${fmt(tot)}</b><span>residents (Census 2021)</span></div>`+
+ `<div class="kpi"><b>${fmt(totA)}</b><span>registered defibrillators, ${C.public247} public 24/7</span></div>`+
+ `<div class="kpi hl"><b>${pct(st['200'].p247)}</b><span>of residents within 200 m of a public 24/7 AED</span></div>`+
+ `<div class="kpi"><b>${pct(st['100'].p247)}</b><span>within 100 m, the 2-minute walk standard</span></div>`;
+document.getElementById('lede').textContent=`${C.restricted} of the ${fmt(totA)} registered units are restricted to staff or members and ${C.publicvar} are public only at set times. Counting every unit regardless of access, ${pct(st['200'].pall)} of residents are within 200 m.`;
+const bar=v=>`<i><u style="width:${Math.round(v*100)}%"></u></i>`;
+let t='<tr><th>District</th><th>Residents</th><th>AEDs</th><th>100 m</th><th>200 m</th><th>500 m</th></tr>';
+for(const d of S.districts) t+=`<tr data-d="${d.district}" tabindex="0"><td><b>${d.district}</b></td><td>${fmt(d.residents)}</td><td>${d.aeds}</td><td class="c">${pct(d.c100)}${bar(d.c100)}</td><td class="c">${pct(d.c200)}${bar(d.c200)}</td><td class="c">${pct(d.c500)}${bar(d.c500)}</td></tr>`;
+t+=`<tr class="tot"><td>All</td><td>${fmt(tot)}</td><td>${totA}</td><td>${pct(st['100'].p247)}</td><td>${pct(st['200'].p247)}</td><td>${pct(st['500'].p247)}</td></tr>`;
+document.getElementById('covtab').innerHTML=t;
+
+const I=S.impact; const cols=['#174882','#084121','#312783','#8BA3C1'];
+const stp=[['Today',I.now,0],[`Open ${UPS.features.length} existing units 24/7`,I.ups,I.now],['Plus top 10 new 24/7 units',I.sites10,I.ups],['Plus top 20 new 24/7 units',I.sites20,I.sites10]];
+const scale=Math.max(0.5,Math.ceil(I.sites20*10)/10);
+document.getElementById('steps').innerHTML=stp.map((x,i)=>{let segs='',last=0;stp.slice(0,i+1).forEach((p,j)=>{segs+=`<i style="width:${(p[1]-last)*100/scale}%;background:${cols[j]}"></i>`;last=p[1];});
+ return `<div class="step"><span>${x[0]}${i?` <span class="note">+${fmt((x[1]-x[2])*tot)} residents</span>`:''}</span><b>${pct(x[1])}</b><div class="b2">${segs}</div></div>`;}).join('');
+
+if(S.history&&S.history.length>1){const h=S.history;document.getElementById('trendsec').hidden=false;
+  const ys=h.map(r=>r.within_200m),mn=Math.min(...ys)-0.01,mx=Math.max(...ys)+0.01;
+  const pts=h.map((r,i)=>[i*300/(h.length-1),44-(r.within_200m-mn)/(mx-mn)*40]);
+  document.getElementById('spark').innerHTML=`<polyline fill="none" stroke="#174882" stroke-width="2" vector-effect="non-scaling-stroke" points="${pts.map(p=>p.join(',')).join(' ')}"/>`+pts.map(p=>`<circle cx="${p[0]}" cy="${p[1]}" r="2.5" fill="#174882"/>`).join('');
+  const a=h[0],b=h[h.length-1];document.getElementById('trendtxt').textContent=`Within 200 m: ${pct(a.within_200m)} (${a.extract}) → ${pct(b.within_200m)} (${b.extract}). Public 24/7 units: ${a.public_247} → ${b.public_247}.`;}
+
+// ---------------- map ----------------
+const b=S.bounds;
+const map=L.map('map',{zoomSnap:0.5,minZoom:10,maxZoom:18,preferCanvas:true,maxBounds:[[b[0][0]-0.15,b[0][1]-0.25],[b[1][0]+0.15,b[1][1]+0.25]]});
+map.attributionControl.setPrefix(false);window._map=map;
+let baseLayer;
+if(!E){
+  baseLayer=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+  map.attributionControl.addAttribution('Contains OS &amp; ONS data © Crown copyright 2026');
+}else{
+  map.attributionControl.addAttribution('Contains OS data © Crown copyright 2026 · © OpenStreetMap contributors');
+  baseLayer=vectorBase(BASE).addTo(map);
+}
+const segBtns=[document.getElementById('bm-detail'),document.getElementById('bm-muted')];
+segBtns.forEach((bt,i)=>bt.addEventListener('click',()=>{segBtns.forEach((x,j)=>x.setAttribute('aria-pressed',String(i===j)));document.getElementById('map').classList.toggle('muted',i===1);if(E){map.removeLayer(baseLayer);baseLayer=vectorBase(BASE,i===1).addTo(map);}}));
+
+// postcode districts
+const distL=L.layerGroup().addTo(map); const distB={};
+L.geoJSON(DIST,{style:{color:'#174882',weight:2.4,dashArray:'7 5',fill:false},interactive:false,onEachFeature:(f,l)=>{distB[f.properties.district]=l.getBounds();}}).addTo(distL);
+DIST.features.forEach(f=>L.marker([f.properties.label_lat,f.properties.label_lon],{interactive:false,keyboard:false,icon:L.divIcon({className:'',html:`<span class="dlabel">${f.properties.district}</span>`,iconSize:[0,0]})}).addTo(distL));
+document.querySelectorAll('tr[data-d]').forEach(tr=>{const go=()=>{map.fitBounds(distB[tr.dataset.d],{padding:[20,20]});if(innerWidth<=820)document.getElementById('map').scrollIntoView({behavior:'smooth'});};tr.addEventListener('click',go);tr.addEventListener('keydown',e=>{if(e.key==='Enter')go();});});
+
+// overlays
+const surf={'l-need':L.imageOverlay(RAS.need,b,{opacity:.8}),'l-unmet':L.imageOverlay(RAS.unmet,b,{opacity:.85}),'l-dens':L.imageOverlay(RAS.density,b,{opacity:.8}),'l-cov':L.imageOverlay(RAS.coverage,b,{opacity:.85}),'l-oa':null,'l-none':null};
+document.getElementById('dmax').textContent='≥'+fmt(Math.round(S.density_max/500)*500)+' per km²';
+const oaBins=[[0,'<500'],[500,'500–2,500'],[2500,'2,500–5,000'],[5000,'5,000–8,000'],[8000,'8,000+']];
+const oaCols=['rgba(152,147,193,.10)','rgba(152,147,193,.4)','#9893C1','#645DA2','#312783'];
+document.getElementById('oaleg').innerHTML=oaBins.map((x,i)=>`<span><i class="dot" style="border-radius:2px;background:${oaCols[i]}"></i>${x[1]}</span>`).join('');
+let cur=null;
+async function setSurf(id){if(cur)map.removeLayer(cur);
+  if(id==='l-oa'&&!surf['l-oa']){const oa=OAS||await J('output_areas.geojson');
+    surf['l-oa']=L.geoJSON(oa,{style:f=>{let bi=0;oaBins.forEach((x,i)=>{if(f.properties.density_km2>=x[0])bi=i;});return {weight:.6,color:'#312783',opacity:.5,fillColor:oaCols[bi],fillOpacity:1};},
+      onEachFeature:(f,l)=>l.bindTooltip(`<b>${f.properties.oa}</b><br>${fmt(f.properties.residents)} residents, ${fmt(f.properties.aged65)} aged 65+<br>${fmt(f.properties.density_km2)} per km²`,{sticky:true})});}
+  cur=surf[id];if(cur)cur.addTo(map);distL.eachLayer(l=>l.bringToFront&&l.bringToFront());}
+document.querySelectorAll('input[name=surf]').forEach(el=>el.addEventListener('change',()=>{if(el.checked)setSurf(el.id);}));
+setSurf('l-need');
+const fade=()=>{const z=map.getZoom();const o=z<=12?.85:z<=13?.75:z<=14?.6:z<=15?.5:.4;for(const k of ['l-need','l-unmet','l-dens','l-cov'])surf[k].setOpacity(o);};map.on('zoomend',fade);
+
+// place + station labels (vector base only; OSM tiles already carry them)
+if(E){const lab=L.layerGroup().addTo(map);
+  const draw=()=>{lab.clearLayers();const z=map.getZoom(),bb=map.getBounds().pad(.1);
+    for(const p of BASE.places){const mz={town:10,suburb:13,village:12,hamlet:14,neighbourhood:15,locality:16}[p[3]]||16;if(z<mz)continue;const ll=[p[1],p[0]];if(!bb.contains(ll))continue;
+      L.marker(ll,{interactive:false,keyboard:false,icon:L.divIcon({className:'',html:`<span class="plabel ${p[3]}">${esc(p[2])}</span>`,iconSize:[0,0]})}).addTo(lab);}
+    if(z>=12)for(const s of BASE.stations){const ll=[s[1],s[0]];if(!bb.contains(ll))continue;
+      L.marker(ll,{interactive:false,keyboard:false,icon:L.divIcon({className:'',html:`<span class="stn"><i></i>${z>=13?esc(s[2]):''}</span>`,iconSize:[0,0]})}).addTo(lab);}};
+  map.on('zoomend moveend',draw);map.whenReady(draw);}
+
+// defibrillators
+const col={public247:'#084121',publicvar:'#312783',restricted:'#FFFFFF'};
+const aedL=L.layerGroup().addTo(map), ringL=L.layerGroup(); const rend=L.canvas({padding:.3});
+AED.features.forEach(f=>{const p=f.properties,[lo,la]=f.geometry.coordinates;
+  L.circleMarker([la,lo],{renderer:rend,radius:p.in_area?5.5:4,color:p.access==='restricted'?'#425664':'#FFFFFF',weight:p.access==='restricted'?2:1.5,fillColor:col[p.access],fillOpacity:p.in_area?1:.55,opacity:p.in_area?1:.6})
+   .bindPopup(`<b>${esc(p.name)}</b><br>${esc(p.address)}<br><span class="tag">${esc(p.access_label)}</span>${p.availability?`<span class="tag">${esc(p.availability)}</span>`:''}${p.in_area?'':'<span class="tag">Outside TTW CFR area</span>'}`).addTo(aedL);
+  if(p.access!=='restricted')L.circle([la,lo],{renderer:rend,radius:200,color:col[p.access],weight:1,fillColor:col[p.access],fillOpacity:.1,interactive:false}).addTo(ringL);});
+
+// recommendations
+const siteL=L.layerGroup().addTo(map), upL=L.layerGroup().addTo(map), siteM=[], upM=[];
+SITES.features.forEach(f=>{const p=f.properties,[lo,la]=f.geometry.coordinates;
+  const m=L.marker([la,lo],{icon:L.divIcon({className:'',html:`<div class="pin">${p.rank}</div>`,iconSize:[28,28],iconAnchor:[14,14]}),zIndexOffset:1000,title:`Priority ${p.rank}: ${p.locality}`})
+   .bindPopup(`<b>Priority ${p.rank} · ${esc(p.locality)}</b><br>Nearest postcode ${esc(p.postcode)}<br>About <b>${fmt(p.residents_gained)}</b> residents newly within 200 m, ${fmt(p.aged65_gained)} aged 65+<br>Nearest public 24/7 AED today: ${p.nearest_247_m==null?'none':fmt(p.nearest_247_m)+' m'}`).addTo(siteL);siteM.push(m);});
+UPS.features.forEach(f=>{const p=f.properties,[lo,la]=f.geometry.coordinates;
+  const m=L.marker([la,lo],{icon:L.divIcon({className:'',html:`<div class="pin u">U${p.rank}</div>`,iconSize:[24,24],iconAnchor:[12,12]}),zIndexOffset:900,title:p.name})
+   .bindPopup(`<b>${esc(p.name)}</b><br>${esc(p.address)}<br><span class="tag">${esc(p.access_label)}</span><br>Opening it 24/7 would bring about <b>${fmt(p.residents_gained)}</b> more residents within 200 m`).addTo(upL);upM.push(m);});
+const li=(rk,cls,title,sub,n,click)=>{const el=document.createElement('li');el.tabIndex=0;el.innerHTML=`<div class="rk ${cls}">${rk}</div><div class="st"><b>${title}</b><span>${sub}</span></div><div class="num">+${fmt(n)}<small>residents</small></div>`;el.addEventListener('click',click);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();click();}});return el;};
+const goto=(m,layer,box)=>{if(!map.hasLayer(layer)){layer.addTo(map);document.getElementById(box).checked=true;}map.flyTo(m.getLatLng(),16.5,{duration:.8});setTimeout(()=>m.openPopup(),850);if(innerWidth<=820)document.getElementById('map').scrollIntoView({behavior:'smooth'});};
+SITES.features.forEach((f,i)=>{const p=f.properties;document.getElementById('sites').appendChild(li(p.rank,'',esc(p.locality),`${esc(p.postcode)} · nearest 24/7 AED ${p.nearest_247_m==null?'none':fmt(p.nearest_247_m)+' m'}`,p.residents_gained,()=>goto(siteM[i],siteL,'l-sites')));});
+UPS.features.forEach((f,i)=>{const p=f.properties;document.getElementById('ups').appendChild(li('U'+p.rank,'u',esc(p.name),`${esc(p.locality)} · ${p.access==='restricted'?'restricted':'limited hours'}`,p.residents_gained,()=>goto(upM[i],upL,'l-ups')));});
+const tog=(id,layer)=>document.getElementById(id).addEventListener('change',e=>{e.target.checked?layer.addTo(map):map.removeLayer(layer);});
+tog('l-aed',aedL);tog('l-ring',ringL);tog('l-sites',siteL);tog('l-ups',upL);tog('l-dist',distL);
+map.fitBounds(L.geoJSON(DIST).getBounds(),{padding:[12,12]});
+
+// ---------------- self-contained vector base map (used when tiles cannot load) ----------------
+function vectorBase(B,muted){
+  const dec=a=>{const o=[];let x=0,y=0;for(let i=0;i<a.length;i+=2){x+=a[i];y+=a[i+1];o.push([x/1e5,y/1e5]);}return o;};
+  const mx=lon=>(lon+180)/360,my=lat=>{const s=Math.sin(lat*Math.PI/180);return .5-Math.log((1+s)/(1-s))/(4*Math.PI);};
+  if(!B._p){B._p=true;const prep=c=>{const xs=new Float64Array(c.length),ys=new Float64Array(c.length);let a=1,b2=0,c2=1,d=0;c.forEach((q,i)=>{xs[i]=mx(q[0]);ys[i]=my(q[1]);a=Math.min(a,xs[i]);b2=Math.max(b2,xs[i]);c2=Math.min(c2,ys[i]);d=Math.max(d,ys[i]);});return{xs,ys,bb:[a,c2,b2,d]};};
+    B._roads=B.roads.map(r=>({c:r[0],name:r[1],num:r[2],...prep(dec(r[3]))}));B._rail=B.rail.map(r=>prep(dec(r)));}
+  const P=muted?{land:'#F3F3F1',cas:['#C9C9C9','#CFCFCF','#D2D2D2','#D9D9D9','#E0E0E0','#E6E6E6'],fill:['#E2E2E2','#ECECEC','#F2F2F2','#FFFFFF','#FFFFFF','#FAFAFA'],txt:'#555',num:['#777','#777','#999']}
+                 :{land:'#F1EFEA',cas:['#B4485C','#C08A3E','#B5AE58','#B9B2A6','#C9C3B8','#D6D1C7'],fill:['#E892A2','#FCD6A4','#F7F3A6','#FFFFFF','#FFFFFF','#FBFAF7'],txt:'#2D2F2E',num:['#2E7D4F','#2E7D4F','#5C5A50']};
+  const widths=z=>[z>=15?9:z>=13?6:z>=11?4:3, z>=15?8:z>=13?5.5:z>=11?3.4:2.4, z>=15?7:z>=13?4.5:z>=11?2.6:1.6, z>=15?6:z>=14?4:z>=12?2:1.1, z>=16?6:z>=15?4.5:z>=14?3:z>=13?1.6:0.8, z>=16?3.5:z>=15?2.4:1.2];
+  const minz=[0,0,9,11,12,14];
+  const Cls=L.GridLayer.extend({createTile(c){
+    const cv=document.createElement('canvas'),r=devicePixelRatio>1?2:1;cv.width=cv.height=256*r;const ctx=cv.getContext('2d');ctx.scale(r,r);
+    const n=Math.pow(2,c.z)*256,tx=c.x*256,ty=c.y*256,z=c.z,pad=20/n,tb=[tx/n,ty/n,(tx+256)/n,(ty+256)/n];
+    const hit=bb=>!(bb[2]<tb[0]-pad||bb[0]>tb[2]+pad||bb[3]<tb[1]-pad||bb[1]>tb[3]+pad);
+    ctx.fillStyle=P.land;ctx.fillRect(0,0,256,256);
+    const vis=B._roads.filter(f=>z>=minz[f.c]&&hit(f.bb));const W=widths(z);
+    const stroke=(arr,w,colr,dash)=>{ctx.strokeStyle=colr;ctx.lineWidth=w;ctx.setLineDash(dash||[]);ctx.beginPath();for(const f of arr){ctx.moveTo(f.xs[0]*n-tx,f.ys[0]*n-ty);for(let i=1;i<f.xs.length;i++)ctx.lineTo(f.xs[i]*n-tx,f.ys[i]*n-ty);}ctx.stroke();};
+    ctx.lineCap='round';ctx.lineJoin='round';
+    // rail
+    const rl=B._rail.filter(f=>hit(f.bb));if(z>=11){stroke(rl,z>=14?4:3,'#7A7A7A');stroke(rl,z>=14?2:1.4,'#FFFFFF',[6,6]);}
+    for(const k of [5,4,3,2,1,0]){const a=vis.filter(f=>f.c===k);if(!a.length)continue;stroke(a,W[k]+(z>=13?2:1.2),P.cas[k]);}
+    for(const k of [5,4,3,2,1,0]){const a=vis.filter(f=>f.c===k);if(!a.length)continue;stroke(a,W[k],P.fill[k]);}
+    ctx.setLineDash([]);
+    // street names
+    if(z>=15){ctx.font=`${z>=17?13:z>=16?12:11}px Barlow, Arial, sans-serif`;ctx.textAlign='center';ctx.textBaseline='middle';const done=new Set();
+      const segs=[];for(const f of vis){if(!f.name)continue;for(let i=1;i<f.xs.length;i++){const x1=f.xs[i-1]*n-tx,y1=f.ys[i-1]*n-ty,x2=f.xs[i]*n-tx,y2=f.ys[i]*n-ty;segs.push([Math.hypot(x2-x1,y2-y1),x1,y1,x2,y2,f.name]);}}
+      segs.sort((a,b)=>b[0]-a[0]);
+      for(const [len,x1,y1,x2,y2,nm] of segs){if(done.has(nm))continue;const w=ctx.measureText(nm).width;if(len<w+12)continue;const mxp=(x1+x2)/2,myp=(y1+y2)/2;
+        let ang=Math.atan2(y2-y1,x2-x1);if(ang>Math.PI/2)ang-=Math.PI;if(ang<-Math.PI/2)ang+=Math.PI;
+        const hx=Math.cos(ang)*w/2,hy=Math.sin(ang)*w/2;if([mxp-hx,mxp+hx].some(v=>v<4||v>252)||[myp-hy,myp+hy].some(v=>v<6||v>250))continue;
+        ctx.save();ctx.translate(mxp,myp);ctx.rotate(ang);ctx.lineWidth=3;ctx.strokeStyle='rgba(255,255,255,.95)';ctx.strokeText(nm,0,0);ctx.fillStyle=P.txt;ctx.fillText(nm,0,0);ctx.restore();done.add(nm);}}
+    // road numbers
+    if(z>=11){ctx.font='bold 11px Barlow, Arial, sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';const done=new Set();
+      for(const f of vis){if(!f.num||f.c>2||done.has(f.num)||(f.c===2&&z<13))continue;const m=Math.floor(f.xs.length/2);const x=f.xs[m]*n-tx,y=f.ys[m]*n-ty;const w=ctx.measureText(f.num).width+8;
+        if(x-w/2<2||x+w/2>254||y<10||y>246)continue;ctx.fillStyle=P.num[f.c];ctx.fillRect(x-w/2,y-8,w,16);ctx.strokeStyle='#fff';ctx.lineWidth=1;ctx.strokeRect(x-w/2+.5,y-7.5,w-1,15);ctx.fillStyle=f.c<2?'#FFD100':'#fff';ctx.fillText(f.num,x,y+.5);done.add(f.num);}}
+    return cv;}});
+  return new Cls({pane:'tilePane',updateWhenZooming:false,keepBuffer:2,maxZoom:18});
+}
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,499 @@
+id,name,address,access,access_label,availability,in_area,district,longitude,latitude
+13B0D73A-B9C1-4D14-B713-AEED014C0A99,10 Fairhurst Drive,"10 Fairhurst Drive, East Farleigh, ME15 0DF",public247,"Public, 24/7",24/7 Access,False,,0.487384,51.236697
+9052F222-D430-4989-859E-AE8C008B27A0,Gusbourne,"Gusbourne Warehouse, Amsbury Farm, East Street, Maidstone, ME15 0QY",restricted,Restricted access,Varied Access,False,,0.479415,51.226118
+453E4C05-CA49-4813-94CC-AEC100A42FED,Hunton C Of E Primary School,"Hunton C Of E Primary School, Bishops Lane, Hunton, ME15 0SJ",restricted,Restricted access,Varied Access,False,,0.458618,51.217123
+876F4997-C5EF-4FC7-B99A-B2F300FCED1D,"The Apple Store, Boyton Court Road","The Apple Store, Boyton Court Road, Boyton Court Road, Sutton Valence, ME17 3BY",public247,"Public, 24/7",24/7 Access,False,,0.603326,51.209602
+D6C48A20-E82C-4BFD-9075-AE7700DFDD7D,Chart Sutton Parish Council,"Shop On The Green, Chart Corner, Maidstone, ME17 3SB",public247,"Public, 24/7",24/7 Access,False,,0.571521,51.223793
+FA77DA00-E43A-4591-99F5-AFC400F317BC,Coxheath Scout Hut,"24 Westerhill Road, Coxheath, ME17 4DH",public247,"Public, 24/7",24/7 Access,False,,0.49383,51.23164
+48B6B48E-7B0F-43FC-806D-B2F300C2B8D0,"Shelter 17m From Boughton Monchelsea Village Institute, 86 Church Street 7m From Church St","Shelter 17m From Boughton Monchelsea Village Institute, 86 Church Street 7m From Church St, Church Street, Boughton Monchelsea, ME17 4HN",public247,"Public, 24/7",24/7 Access,False,,0.53225,51.230212
+9EC99798-AB88-4BBB-B67D-B35B00DC2F94,Boughton Monchelsea County Primary School,"Boughton Monchelsea County Primary School, Church Hill, Boughton Monchelsea, ME17 4HP",restricted,Restricted access,Varied Access,False,,0.532152,51.2288
+9C88C61D-9447-4DED-AE7C-B42C0104D577,Reception Lobby,"Oneschool Global Uk Maidstone Campus, Heath Road, Linton, ME17 4HT",restricted,Restricted access,Varied Access,False,,0.521142,51.229
+18C765FA-B227-40D5-8A27-B39F00D57E24,The Cornwallis School,"The Cornwallis School, Hubbards Lane, Boughton Monchelsea, ME17 4HX",restricted,Restricted access,Varied Access,False,,0.515923,51.2304
+C4021AFE-B54F-462E-9E35-B09700C635E6,Coxheath Primary School,"Coxheath Primary School, Stockett Lane, Coxheath, ME17 4PS",restricted,Restricted access,Varied Access,False,,0.496404,51.23395
+DC8CBD03-6C3C-4D19-943A-AE82011518B6,Nettlestead Parish Council,"Nettlestead Village Hall, Maidstone Road, Nettlestead, ME18 5ER",public247,"Public, 24/7",24/7 Access,False,,0.416157,51.247265
+273B51EC-0ED3-4DE4-9422-B0D600D3A373,Bell Equine Veterinary Clinic Ltd,"Bell Equine Hospital, 104 Butchers Lane, Maidstone, ME18 5GS",restricted,Restricted access,24/7 Access,False,,0.378954,51.261588
+AAA38710-C00B-4AAB-9481-AE7400FDBD5F,The Pavilion,"The Pavilion, Queen Elizabeth Ii Jubilee Field, The Street, Mereworth, Kent, The Street, West Malling, ME18 5LU",public247,"Public, 24/7",24/7 Access,False,,0.37857,51.25964
+C2D323D7-B3C1-4C0E-8B20-B3E900EA6411,The Packhouse,"The Packhouse At Barons Place Farm, Seven Mile Lane, Maidstone, ME18 5NE",restricted,Restricted access,24/7 Access,False,,0.365653,51.2617
+2054AA5E-93DC-4296-BE99-B3B500DBFC64,Premier Inn A26 Wateringbury,"Accommodation At Wateringbury Hotel, 103 Tonbridge Road, Maidstone, ME18 5NS",restricted,Restricted access,24/7 Access,False,,0.424801,51.2546
+F86D75A7-9771-4FB2-A92A-AE7500A16398,St. John The Baptist Church,"333-337,Tonbridge Road, Wateringbury, Maidstone, ME18 5PA",public247,"Public, 24/7",24/7 Access,False,,0.4139,51.2571
+C3C0E2E1-66B1-4DD4-8C80-B10E0125ADE8,Wateringbury Sports And Recreation Field Association,"The Pavilion, Fields Lane, Maidstone, ME18 5RS",restricted,Restricted access,Varied Access,False,,0.42613,51.25111
+DBBA1A1A-8C90-4BA2-BAFC-AE8A00D2C2AB,Yalding Parish Council,"The Woolpack Inn, Benover Road, Yalding, ME18 6AS",public247,"Public, 24/7",24/7 Access,False,,0.439171,51.208561
+A4AF43C0-E8B6-4EFF-93DF-B3EC00CA2AAA,Yalding St Peter & St Paul Primary School,"St Peter And St Paul C Of E Primary School, Vicarage Road, Yalding, ME18 6DP",restricted,Restricted access,Varied Access,False,,0.434067,51.2252
+48FDBF45-9EC7-4734-901C-AF2500F29911,Se Trains Limited,"Yalding Station, Hampstead Lane Yalding, Yalding, ME18 6HN",public247,"Public, 24/7",24/7 Access,False,,0.412294,51.22596
+417AB324-4CE9-4A29-BE91-AEB000BF4B71,Hunton Engineering Design,"Hunton Engineering Design, West Street, Hunton, ME15 0RR",restricted,Restricted access,Varied Access,False,,0.466578,51.222715
+EADEB929-58A7-4229-934C-B3A900F648CA,Hunton Village Club,"Hunton Village Club, West Street, Hunton, ME15 0RS",public247,"Public, 24/7",24/7 Access,False,,0.460155,51.2183
+4335909E-6033-415B-911E-B1FC00C9E39B,Hunton Village Hall,"Hunton Village Hall, West Street, Hunton, ME15 0RS",public247,"Public, 24/7",24/7 Access,False,,0.46765,51.22167
+FC0A9F36-49D3-4B21-B11D-AE9100FFD039,Sutton Valence School,"Sutton Valence School, North Street, Sutton Valence, ME17 3HN",restricted,Restricted access,Varied Access,False,,0.593548,51.21456
+B7CDB0F6-E558-4C48-A17A-B37D00EBFD4E,Sutton Valence Village Hall,"Sutton Valence Village Hall, North Street, Sutton Valence, ME17 3HS",public247,"Public, 24/7",24/7 Access,False,,0.593149,51.2177
+E94D3B95-3C76-4803-B212-B49500ACAD3C,Village Hall,"Village Hall, Chart Hill Road, Chart Sutton, Maidstone, ME17 3RQ",public247,"Public, 24/7",24/7 Access,False,,0.570534,51.2202
+32CA906A-D46A-4D03-B5EA-B0490108A66E,Loddington Tap,"The Barn Unit 10 Loddington Farm, Loddington Lane, Linton, ME17 4AG",public247,"Public, 24/7",24/7 Access,False,,0.524458,51.225171
+0F2DD8D4-8D7D-4510-80CD-AEA100990933,Linton Parish Council,"Linton, Maidstone, Linton, ME17 4AW",public247,"Public, 24/7",24/7 Access,False,,0.511294,51.223522
+FC911FCD-EEF1-48B0-9C5F-B2E500BAA24A,The Cock Inn,"The Cock Inn, Heath Road, Boughton Monchelsea, ME17 4JD",public247,"Public, 24/7",24/7 Access,False,,0.542706,51.229286
+03E16C57-BBA6-4170-8E77-AFC500B80E9A,Tesco Stores Ltd,"118 Heath Road, Coxheath, ME17 4PN",publicvar,"Public, limited hours",Varied Access,False,,0.495386,51.232335
+F2E121F0-832F-4F6A-A602-AEC900964611,Wateringbury C Of E Primary School Mr R Arnold,"Wateringbury County Primary School, 147 Bow Road, Maidstone, ME18 5EA",restricted,Restricted access,Varied Access,False,,0.422264,51.25024
+6B233F21-4EEE-48A1-A749-B10A00F85BAC,Wateringbury C Of E Primary School Mr R Arnold,"Wateringbury County Primary School, 147 Bow Road, Maidstone, ME18 5EA",restricted,Restricted access,Varied Access,False,,0.422264,51.2502
+47B531A8-A340-4D98-8573-AF39006EB7DF,Se Trains Limited,"Wateringbury Station, Station Approach Off Maidstone Road, Maidstone, ME18 5EA",public247,"Public, 24/7",24/7 Access,False,,0.421593,51.24951
+1BC46634-9743-494B-9C59-ADD200C42333,West Peckham Parish Council,"West Peckham Village Hall, Church Road, Maidstone, ME18 5JJ",public247,"Public, 24/7",24/7 Access,False,,0.355432,51.248405
+15BDE1A4-510C-4697-83C4-B27300ED55A5,5 Church Road,"5 Church Road, Maidstone, ME18 5JL",public247,"Public, 24/7",24/7 Access,False,,0.356543,51.2491
+9E23B3DB-7576-4F37-AC7F-B26B010747A5,Kent County Council Per The Headteacher,"Mereworth County Primary School, The Street, Maidstone, ME18 5ND",restricted,Restricted access,Varied Access,False,,0.37065,51.2571
+74BC6CC2-EC51-4A5C-A997-B3E900ED9918,Hlf Office,"Barons Place, 215 Willow Wents, Maidstone, ME18 5NF",restricted,Restricted access,Varied Access,False,,0.366101,51.2622
+12FAEF8C-72DF-40F3-9368-AE740149590C,Wateringbury Millennium Village Hall,"Wateringbury Village Hall, 147 Tonbridge Road, Maidstone, ME18 5NU",public247,"Public, 24/7",24/7 Access,False,,0.42282,51.25539
+39837B7F-4C25-4F5C-9FC1-AE740100FA79,Mereworth Village Hall,"Mereworth Village Hall, 149 Butchers Lane, Maidstone, ME18 5QD",public247,"Public, 24/7",24/7 Access,False,,0.377352,51.264714
+281B9431-719E-4ADE-B7BE-B13700A9AA15,Laddingford Primary School,"Laddingford C Of E Primary School, Darman Lane, Laddingford, ME18 6BL",restricted,Restricted access,Varied Access,False,,0.418641,51.2055
+AF219F21-91E8-404D-8AE4-B13700B03C1F,Laddingford Primary,"Laddingford Primary, Darman Lane, Laddingford, ME18 6BL",restricted,Restricted access,Varied Access,False,,0.416567,51.20435
+9A4C9894-0F71-4F43-B3BF-AE8A00D7AE5D,Yalding Parish Council,"46 Cleavesland, Yalding, ME18 6BS",public247,"Public, 24/7",24/7 Access,False,,0.4182,51.20759
+F2841EE6-005B-4A59-80EF-AE8A00D0702E,Yalding Parish Council,"The Lodge, Vicarage Road, Yalding, ME18 6DX",public247,"Public, 24/7",24/7 Access,False,,0.4374,51.22446
+70DA27EE-BAF7-4F2A-B137-AE8A00D1EDEE,Yalding Parish Council,"The Old Bakery, Lees Road, Yalding, ME18 6HB",public247,"Public, 24/7",24/7 Access,False,,0.428716,51.223578
+41F52FE2-806F-46FB-86DF-AE8A00D45322,Little Venice Country Park And Marina,"Little Venice Country Park And Marina, 1 Hampstead Lane, Yalding, ME18 6HH",public247,"Public, 24/7",24/7 Access,False,,0.416614,51.226569
+56555437-A868-4A2E-979B-AE8A00D5C656,Walnut Tree Cottages,"Walnut Tree Cottages, High Street, Yalding, ME18 6HX",public247,"Public, 24/7",24/7 Access,False,,0.431836,51.226381
+731F1316-95C3-445A-8F89-B04200884AEB,Gibson Drive,"Gibson Drive, West Malling, ME19 4LZ",restricted,Restricted access,Varied Access,False,,0.39189,51.27437
+EF4A3DAE-924F-40D1-BBC6-B0B6011F5853,Waitrose & Partners - Kings Hill,"Fortune Way, Kings Hill, West Malling, ME19 4QJ",publicvar,"Public, limited hours",Varied Access,False,,0.403308,51.272297
+3A36446B-E1EB-4991-AFAE-B3CD00DC729B,David Lloyd - Kings Hill,"21 Kings Hill Avenue, West Malling, West Malling, ME19 4UA",restricted,Restricted access,Varied Access,False,,0.392043,51.274866
+5942F2D1-FB22-4051-AD8C-AF1C0059A044,Tunbridge Wells Station,"Tunbridge Wells Station, Mount Plesant Road Tunbridge Wells, Royal Tunbridge Wells, TN1 1BT",publicvar,"Public, limited hours",Varied Access,True,TN1,0.262851,51.130221
+69CCDE19-9C55-447C-AD03-AEEF00904F36,Tunbridge Wells Railway Station,"Tunbridge Wells Railway Station, Vale Road, Royal Tunbridge Wells, TN1 1BT",publicvar,"Public, limited hours",Varied Access,True,TN1,0.262851,51.130221
+E59EFF8E-7564-4720-AA0F-AFA100C84517,Rtwskin,"Rtwskin, Cobden House, Royal Tunbridge Wells, TN1 1DA",publicvar,"Public, limited hours",Varied Access,True,TN1,0.260464,51.12785
+7433BED9-89E7-4E14-B76C-B35B00F1BDF5,Premier Inn Royal Tunbridge Wells,"Premier Inn Royal Tunbridge Wells, Merevale House, Royal Tunbridge Wells, TN1 1DL",public247,"Public, 24/7",24/7 Access,True,TN1,0.260377,51.129938
+61BEBA58-118D-4A67-986E-B3FB00FBE6A9,Premier Inn,"Merevale House, 42-46 London Road, Royal Tunbridge Wells, TN1 1DN",restricted,Restricted access,24/7 Access,True,TN1,0.260335,51.1299
+749BE64F-AAA2-4ABB-8AC1-B12300AF7B06,Laverstock Physiotherapy Ltd,"1-3 Lime Hill Road, Tunbridge Wells, TN1 1LJ",restricted,Restricted access,Varied Access,True,TN1,0.261208,51.134
+C906D844-2C7E-4356-A75D-B22600C9F138,Lonsdale Gardens,"16 Lonsdale Gardens, Tunbridge Wells, Royal Tunbridge Wells, TN1 1NU",restricted,Restricted access,Varied Access,True,TN1,0.262116,51.1313
+3318435F-70B6-4C23-99F0-AE920077CE4D,1 Clanricarde Gardens,"1 Clanricarde Gardens, Royal Tunbridge Wells, TN1 1PE",publicvar,"Public, limited hours",Varied Access,True,TN1,0.262095,51.131701
+ABCCCD32-71DF-4CE1-963C-B0C100D3DA0B,Integral - Great Hall Arcade,"Integral - Great Hall Arcade, Great Hall Arcade, Mount Pleasant Road, Royal Tunbridge Wells, TN1 1QQ",public247,"Public, 24/7",24/7 Access,True,TN1,0.263513,51.1303
+6E8FB288-4304-4282-99D6-B41E00FAF78D,Cgl,"First And Second Floor Offices, 18 Mount Pleasant Road, Royal Tunbridge Wells, TN1 1QU",restricted,Restricted access,Varied Access,True,TN1,0.263647,51.1301
+D34D24C0-A2D8-4DD0-A4A2-B35300D09C05,Tunbridge Wells,"Cinema Development Site, Mount Pleasant Road, Royal Tunbridge Wells, TN1 1RP",restricted,Restricted access,Varied Access,True,TN1,0.263125,51.132353
+3ECAA39E-8DB6-4DA4-928D-AF4700DB38DD,Kent Fire & Rescue Service,"Tunbridge Wells Fire Station, Grove Hill Road, Royal Tunbridge Wells, TN1 1SD",public247,"Public, 24/7",24/7 Access,True,TN1,0.267074,51.129186
+AE7FD9A4-9014-4FB4-8B36-AF5400A5CD32,Grove Bowling Club,"Grove Bowling Club, Grove Hill Gardens, Royal Tunbridge Wells, TN1 1SR",public247,"Public, 24/7",24/7 Access,True,TN1,0.266803,51.128615
+39FB34D0-AC61-4C04-B92A-AE3800F3FF44,Tesco Ltd,"29 Grosvenor Road, Royal Tunbridge Wells, TN1 2AH",publicvar,"Public, limited hours",Varied Access,True,TN1,0.263166,51.134865
+CFECBB98-84F0-460D-88C7-AE8B00B400D6,The Calverley Dental Practice,"The Calverley Dental Practice, 8 Goods Station Road, Royal Tunbridge Wells, TN1 2BJ",restricted,Restricted access,Varied Access,True,TN1,0.263952,51.1352
+110218CB-4FF4-40E3-8F12-B0DC00D0E312,Banana Moon Day Nursery,"Banana Moon Day Nursery, 15-17 Upper Grosvenor Road, Royal Tunbridge Wells, TN1 2DU",publicvar,"Public, limited hours",Varied Access,True,TN1,0.263544,51.136757
+E75AF9A3-39B5-46BA-8E47-AE990108D498,Grosvenor And St James Medical Practice,"23 Upper Grosvenor Road, Royal Tunbridge Wells, TN1 2DX",restricted,Restricted access,Varied Access,True,TN1,0.264363,51.137432
+29D39C2C-E1EC-4011-87B9-B16B008E1F4E,St James,"St James Church Hall, St James Road, Royal Tunbridge Wells, TN1 2HD",public247,"Public, 24/7",24/7 Access,True,TN1,0.27287,51.13655
+D72F7CD5-6855-4182-955D-AE7C00EDFDF4,The Allotment,"90 St James Road, Royal Tunbridge Wells, TN1 2HH",public247,"Public, 24/7",24/7 Access,True,TN1,0.27379,51.14053
+871070C4-776C-4030-9CD2-AE99010AACD1,St James Medical Centre,"St James Medical Centre, 11 Carlton Road, Royal Tunbridge Wells, TN1 2HW",restricted,Restricted access,Varied Access,True,TN1,0.272588,51.133782
+495B02C0-75B0-43B1-88B0-B1D500D7A33B,Hotel Du Vin & Bistro,"Hotel Du Vin And Bistro, Crescent Road, Royal Tunbridge Wells, TN1 2LY",public247,"Public, 24/7",24/7 Access,True,TN1,0.265493,51.1316
+DEBC5C55-DB41-466A-8943-B02900B49AC8,O2 Store (0079)   Tunbridge Wells,"Unit 148, Royal Victoria Place Shopping Centre, Royal Tunbridge Wells, TN1 2SR",restricted,Restricted access,Varied Access,True,TN1,0.2665,51.13498
+5B85E6F5-9FB3-41B3-B6E0-AE7F00C6B224,Rvp Shopping Centre,"Royal Victoria Place, Royal Tunbridge Wells, TN1 2SS",restricted,Restricted access,Varied Access,True,TN1,0.265766,51.134868
+F9F2D21A-917A-4993-97CB-B29600FA2A83,Marks & Spencer Tunbridge Wells,"33-37 Calverley Road, Royal Tunbridge Wells, TN1 2TX",restricted,Restricted access,Varied Access,True,TN1,0.265916,51.1344
+72C7BCC1-5B1F-45B5-B731-B29300EEA01D,Oast Theatre,"Oast Theatre, London Road, Tonbridge, TN10 3AN",public247,"Public, 24/7",24/7 Access,True,TN10,0.262293,51.2059
+0930738F-F801-4713-B971-AED700A71206,London Road,"London Road, Tonbridge, TN10 3AN",public247,"Public, 24/7",24/7 Access,True,TN10,0.263413,51.205665
+06BC8DB1-14BE-4BF5-BA21-B2A40106A928,Somervell House,"Somervell House, 28 Dry Hill Park Road, Tonbridge, TN10 3BN",public247,"Public, 24/7",24/7 Access,True,TN10,0.275605,51.2044
+06AE477C-369F-4849-93DF-AEA000BCEE17,Woodlands Infant School,"Woodlands Infant School, Higham School Road, Tonbridge, TN10 4BB",publicvar,"Public, limited hours",Varied Access,True,TN10,0.293754,51.213862
+E39ADCE2-72A1-4168-A7AB-B48700E9491E,Acorn Building,"Woodlands Infant School, Higham School Road, Tonbridge, TN10 4BB",restricted,Restricted access,Varied Access,True,TN10,0.293754,51.2139
+C909EAB7-32DB-4E5B-BB6C-AD4E00A0F757,The Oaks Specialist College,"The Oaks Specialist College, Cage Green Road, Tonbridge, TN10 4PT",publicvar,"Public, limited hours",Varied Access,True,TN10,0.284126,51.212556
+477B4871-CE63-4A4E-9EAA-B05000B8DF0F,Cage Green County Primary School,"Cage Green Primary School, Cage Green Road, Tonbridge, TN10 4PT",restricted,Restricted access,Varied Access,True,TN10,0.284322,51.213326
+D9996836-0C84-4C24-A58A-B44B00B9FA2E,Leigh Academy Hugh Christie,"White Cottage Road, Tonbridge, TN10 4PU",restricted,Restricted access,Varied Access,True,TN10,0.281921,51.2143
+D750736C-C8E8-42F4-B1BE-B44B00B84F22,Leigh Academy Hugh Christie,"Leigh Academy Hugh Christie, White Cottage Road, Tonbridge, TN10 4PU",restricted,Restricted access,Varied Access,True,TN10,0.281921,51.2143
+D96F0BB4-DCDC-4BB0-B40B-B02700F75D81,Weathered And Worn,"Weathered And Worn, High Street, Tonbridge, TN11 0EF",public247,"Public, 24/7",24/7 Access,True,TN11,0.335816,51.222993
+C98BA904-ADFB-4202-A3C5-AFEF00C1E2EC,Hadlow Village Hall,"Williams Field Recreation Ground, Marshall Gardens, Tonbridge, TN11 0HQ",public247,"Public, 24/7",24/7 Access,True,TN11,0.337127,51.22938
+49C156B8-9840-4A6A-AC54-AEAD00D1FB71,Yardley Court Prep The Schools At Somerhill,"Yardley Court Prep The Schools At Somerhill, Somerhill, Tonbridge, TN11 0NJ",restricted,Restricted access,24/7 Access,True,TN11,0.300228,51.182933
+E054E009-207D-49E2-B40D-B0C200D09E4B,Penshurst Ce Primary School,"Penshurst C Of E Primary School, High Street, Penshurst, TN11 8BX",restricted,Restricted access,Varied Access,True,TN11,0.179854,51.1716
+3A635091-D184-4CC7-B846-AFEB00C9D0CA,Public Telephone 12m From Post Office Cottage On B2027,"Public Telephone 12m From Post Office Cottage On B2027, Outside Causeway Stores, Chiddingstone Causeway, TN11 8JP",public247,"Public, 24/7",24/7 Access,True,TN11,0.169946,51.198778
+D4C53E2E-9ED1-4505-B54E-AE4700F01884,Stables Daycare Ltd,"Stables Daycare, Noble Tree Road, Hildenborough, TN11 8ND",restricted,Restricted access,Varied Access,True,TN11,0.234385,51.217915
+4200ECFD-DA14-4F1F-A671-ADCC0097F5BF,Crossfit Tag,"Unit 19 Gaza Trading Estate, Scabharbour Road, Weald, TN11 8PL",public247,"Public, 24/7",24/7 Access,True,TN11,0.195984,51.219822
+DADB1CF6-BDB0-4633-A23A-ADD300CDACBE,Leigh Parish Council,"Leigh Large Village Hall, High Street, Leigh, TN11 8RL",public247,"Public, 24/7",24/7 Access,True,TN11,0.212413,51.195723
+5ABAA874-7846-4408-B892-B042008FF21C,Car Park Haysden Country Park,"Car Park Haysden Country Park, Lower Haysden Lane, Tonbridge, TN11 9BB",publicvar,"Public, limited hours",Varied Access,True,TN11,0.246375,51.191217
+52B12E10-35D9-4883-A6DB-B29D00C516B9,Hildenborough Volvo,"Hyllden Heights Care Home, 140 Tonbridge Road, Tonbridge, TN11 9HJ",public247,"Public, 24/7",24/7 Access,True,TN11,0.244434,51.215702
+B9972039-B6EE-4DF4-84B9-B29300ECEEBA,St Johns Church Hall,"St Johns Church Hall, Foxbush, Tonbridge, TN11 9HT",public247,"Public, 24/7",24/7 Access,True,TN11,0.238532,51.2175
+A0031349-31B5-4966-B5DD-B23000B5A41E,Mf Telecom Services Ltd,"Old Florence Place, 152 Tonbridge Road, Tonbridge, TN11 9HW",restricted,Restricted access,Varied Access,True,TN11,0.243171,51.215832
+72F7BD4F-026A-472C-AB2A-B2750116F171,Hildenborough Parish Council,"Pavilion And Recreation Ground, Riding Lane, Tonbridge, TN11 9HY",public247,"Public, 24/7",24/7 Access,True,TN11,0.241906,51.2185
+15021C00-AB16-4198-932F-B275011857BF,Hildenborough Village Hall,"Hildenborough Village Hall, 10 Riding Lane, Tonbridge, TN11 9HY",public247,"Public, 24/7",24/7 Access,True,TN11,0.241477,51.2171
+64987058-1F97-4EF0-B801-B10F00948932,Kent Education Committee Hildenborough C E P School,"Hildenborough Church Of England Primary School, Riding Lane, Tonbridge, TN11 9HY",restricted,Restricted access,Varied Access,True,TN11,0.241043,51.2179
+D1805B9C-026F-414C-8795-B2AA00F4F208,St Margaret Clitherow Catholic Primary School,"St Margaret Clitherow Roman Catholic Primary School, Trench Road, Tonbridge, TN11 9NG",restricted,Restricted access,Varied Access,True,TN10,0.270655,51.217
+E34B7F74-3116-450E-AD89-AE8200A21CED,Shipbourne Village Hall Trust,"Village Hall, Upper Green Road, Tonbridge, TN11 9PL",public247,"Public, 24/7",24/7 Access,True,TN11,0.284458,51.247606
+D8607188-9C52-40F7-8C1A-B26400A0E3BF,"Telephone Box, Church Green Staplehurst","Telephone Box 34m From 37 Church Green 6m From Church Green, Church Green, Staplehurst, TN12 0BG",public247,"Public, 24/7",24/7 Access,True,TN12,0.552256,51.157114
+74248917-E064-4CBB-9BD7-B28000F39BF2,Poppy's Day Nursery,"Poppy's Day Nursery, Headcorn Road, Staplehurst, TN12 0BU",public247,"Public, 24/7",24/7 Access,True,TN12,0.555357,51.1656
+ACE2DAE6-15F2-4D63-8030-AEE800C4B527,Staplehurst Station,"Staplehurst Station, Station Approach Staplehurst, Staplehurst, TN12 0QR",public247,"Public, 24/7",24/7 Access,True,TN12,0.551589,51.170774
+5EBC90B2-B376-42AF-89D0-B0700091A9A2,Little Mill,"Little Mill Phone Box, Tonbridge Road, Tonbridge, TN12 5LA",public247,"Public, 24/7",24/7 Access,True,TN12,0.369687,51.207635
+1D757BDB-ABE6-483A-A5A2-AE840086BEDC,Paddock Wood Town Council,"Paddock Wood Day Centre, Commercial Road, Tonbridge, TN12 6DP",public247,"Public, 24/7",24/7 Access,True,TN12,0.38607,51.17899
+1D1FD13F-0DC2-4CDE-B655-B04D00D2B20B,Storage Control Systems Limited,"Storage Control Systems Limited, Bridge House, Paddock Wood, TN12 6DQ",restricted,Restricted access,Varied Access,True,TN12,0.38799,51.183376
+0B073462-DE7B-4E45-8FF7-B244009A883B,Paddock Wood Community Centre,"Paddock Wood Community Centre, Maidstone Road, Tonbridge, TN12 6EB",public247,"Public, 24/7",24/7 Access,True,TN12,0.384112,51.174824
+5F4CBAA7-B301-4C56-BD49-AE7F00CAB971,C W Barsley & Son Ltd,"16-22 Commercial Road, Tonbridge, TN12 6EJ",restricted,Restricted access,Varied Access,True,TN12,0.388461,51.181136
+499561EE-C2B1-43AC-847B-AE8400854754,Paddock Wood Town Council,"The Podmore Building St Andrews Recreation Ground, St Andrews Road, Tonbridge, TN12 6GT",public247,"Public, 24/7",24/7 Access,True,TN12,0.39339,51.178988
+41557443-7840-4FAD-A952-B27200C8CBFD,Leigh Academy Paddock Wood,"Old Kent Road, Paddock Wood, Tonbridge, TN12 6JE",restricted,Restricted access,Varied Access,True,TN12,0.387163,51.1784
+F0852C7A-327F-4A65-A2B2-B45600AB2825,Capel Vh Toilets,"Public Conveniences, Falmouth Place, Tonbridge, TN12 6RD",public247,"Public, 24/7",24/7 Access,True,TN12,0.360597,51.183
+48EBCF01-F268-4BA0-BF55-B20A00FB1428,Jestic Ltd,"Unit 1 Dana Trading Estate, Transfesa Road, Tonbridge, TN12 6UT",restricted,Restricted access,Varied Access,True,TN12,0.38945,51.18641
+C59DE02A-6333-4C52-949D-B42F00DDD749,J R Car Spares Ltd,"Oast House Farm, Old Hay, Tonbridge, TN12 7DG",restricted,Restricted access,Varied Access,True,TN12,0.427694,51.1717
+57B31C7E-7139-424F-9294-B07500DA922E,Matfield Village Hall,"Matfield Village Hall, Maidstone Road, Tonbridge, TN12 7LW",public247,"Public, 24/7",24/7 Access,True,TN12,0.368441,51.149858
+FF9A3465-F34C-42F5-B950-AE9A00BE8F72,Howell Surgery,"High Street, Brenchley, Tonbridge, TN12 7NQ",restricted,Restricted access,Varied Access,True,TN12,0.398823,51.15086
+24C1D2B5-14B6-4477-BF07-AE9B00E52A65,Brenchley Memorial Hall,"Brenchley Memorial Hall,, Brenchley,, Tonbridge, TN12 7NX",public247,"Public, 24/7",24/7 Access,True,TN12,0.394269,51.151554
+BC6A62E4-0730-409C-B70F-AE8300D29150,Horsmonden Tennis Club,"Horsmonden Tennis Club, Maidstone Road, Tonbridge, TN12 8DA",public247,"Public, 24/7",24/7 Access,True,TN12,0.434249,51.144145
+041E1587-0AF5-4231-9D92-B1F80114E558,Horsmonden Social Club,"Horsmonden Social Club, Green Road, Tonbridge, TN12 8JS",public247,"Public, 24/7",24/7 Access,True,TN12,0.430341,51.1397
+0AA5FBE4-BED5-45ED-B76D-B3D90071A30E,Horsemonden Vh,"Horsmonden Village Hall, Back Lane, Tonbridge, TN12 8LH",public247,"Public, 24/7",24/7 Access,True,TN12,0.431055,51.1402
+18CEB4E0-B048-46DB-ADB8-B27A00B885B3,Horsmonden Primary Academy,"Back Lane, Horsmonden, Tonbridge, TN12 8NJ",restricted,Restricted access,Varied Access,True,TN12,0.432295,51.1413
+10D9FADC-5AA8-479E-AA41-B27200C38EB9,Leigh Academy Marden,"Goudhurst Road, Marden, Marden, TN12 9JX",restricted,Restricted access,Varied Access,True,TN12,0.48789,51.1736
+22AC20CE-3948-4DBE-8A05-B28E00B449CE,Marden Memorial Hall,"Memorial Hall, Goudhurst Road, Marden, TN12 9JX",public247,"Public, 24/7",24/7 Access,True,TN12,0.487917,51.1738
+01B391E1-3B81-459F-AD0E-B4C400B61214,Cornwells Farm,"Cornwells Farm, Sheephurst Lane, Marden, TN12 9NS",public247,"Public, 24/7",24/7 Access,True,TN12,0.480676,51.159011
+8678EA3C-A858-449F-BE51-ADCE00A447C0,Mill Farm,"Mill Farm, Hunton Road, Marden, TN12 9QX",restricted,Restricted access,Varied Access,True,TN12,0.480546,51.18413
+8338D072-140D-49CE-83A3-B08200BDC689,St Margaret's Collier Street Ce Primary School,"St Margaret's Collier Street Ce Primary School, Collier Street, Tonbridge, TN12 9RR",restricted,Restricted access,Varied Access,True,TN12,0.45455,51.18805
+35DF3C72-8138-41DB-9293-B1010105BE3E,Solefield School,"Solefield School, Solefields Road, Sevenoaks, TN13 1PH",restricted,Restricted access,Varied Access,False,,0.193423,51.2615
+33268813-6E73-4317-8C8E-B11500BA91E7,Community Shop,"Community Shop, Long Barn Road, Sevenoaks Weald, TN14 6PT",public247,"Public, 24/7",24/7 Access,False,,0.186322,51.2363
+DC5A6384-00A7-4151-8BC9-B26000E041BB,Sevenoaks Preparatory School,"Sevenoaks Preparatory School, Park Lane, Sevenoaks, TN15 0JU",restricted,Restricted access,Varied Access,False,,0.225938,51.2681
+E06841FB-9338-4FC1-8F99-B43500D1B514,Sevenoaks Prep School,"Sevenoaks Preparatory School, Park Lane, Sevenoaks, TN15 0JU",restricted,Restricted access,Varied Access,False,,0.225938,51.2681
+CCB92539-BE14-4CD5-9A6D-B07400E0DD27,St Lawrence C Of E Primary School,"St Lawrence C Of E Primary School, Church Road, Stone Street, TN15 0LN",restricted,Restricted access,Varied Access,False,,0.254175,51.273879
+0425C07D-613B-484E-9149-AF260112B9C1,Seal Parish Council,"Public Telephone 23m From Stone Street Farmhouse, Stone Street 4m From Pond Lane, Pond Lane, Seal, TN15 0LP",public247,"Public, 24/7",24/7 Access,False,,0.254642,51.269965
+C338E3C1-C55E-4911-8918-AD96013C0B18,Rooks Hill Farm,"Rooks Hill Farm, Rooks Hill, Underriver, TN15 0NG",restricted,Restricted access,Varied Access,False,,0.242736,51.25656
+DEBD4F4D-1902-4189-835B-AFE200A38412,The National Trust Kent And East Sussex Region,"Ightham Mote, Mote Road, Sevenoaks, TN15 0NT",restricted,Restricted access,Varied Access,False,,0.26966,51.258665
+DDBEA3C0-8F93-445C-8E90-AFE200A52D14,The National Trust Kent And East Sussex Region,"Ightham Mote, Mote Road, Sevenoaks, TN15 0NT",restricted,Restricted access,Varied Access,False,,0.26966,51.258665
+B911583A-89F4-436C-A5DC-AE9E011281A3,Papermakers Arms,"Papermakers Arms, The Street, Sevenoaks, TN15 0QJ",public247,"Public, 24/7",24/7 Access,False,,0.300519,51.257877
+3C2406A2-6A6A-4369-B5AE-AE9E0113F41C,"Public Telephone 24m From Homefield House, The Street 6m From The Street","Public Telephone 24m From Homefield House, The Street 6m From The Street, The Street, Sevenoaks, TN15 0QP",public247,"Public, 24/7",24/7 Access,False,,0.30754,51.25917
+EAB2D442-F52C-48B3-A48A-AE5300DCC90B,Knole Park Golf Club,"The Birdhouse, Knole Lane, Sevenoaks, TN15 0RP",restricted,Restricted access,24/7 Access,False,,0.21122,51.264042
+6A7B1712-65EA-406C-B06D-AD960121B5D5,White Rocks Farm,"White Rocks Farm, Carters Hill, Underriver, TN15 0SL",restricted,Restricted access,Varied Access,False,,0.236217,51.254834
+E0D0964F-BD5B-4466-A098-AE7D01022BEC,1st Ightham Scout Group,"Ightham Scout Pavilion, Sevenoaks Road, Sevenoaks, TN15 9AD",public247,"Public, 24/7",24/7 Access,False,,0.27913,51.28412
+3692B042-E212-459B-965E-B10300E9A982,Kent Education Committee Re Ightham C P School,"Ightham County Primary School, Oldbury Lane, Sevenoaks, TN15 9DD",restricted,Restricted access,Varied Access,False,,0.277349,51.285841
+8E586767-BF2F-44BA-99AA-AE7E00FA15C3,Ightham Village Hall Mangement Committee,"Ightham Village Hall, Sevenoaks Road, Sevenoaks, TN15 9HA",public247,"Public, 24/7",24/7 Access,False,,0.28471,51.28634
+7A106A1F-BC3A-4EAB-B99F-B11E00D4C4A2,The Church Rooms,"Back Lane, Cranbrook, TN17 1AN",public247,"Public, 24/7",24/7 Access,False,,0.461,51.1132
+B5878FB6-3C0D-4F90-8098-B0B601144BC9,Frittenden C Of E Primary School,"Frittenden C Of E Primary School, The Street, Cranbrook, TN17 2DD",restricted,Restricted access,Varied Access,False,,0.591537,51.139199
+D33BF92A-5AEF-4F72-A0D7-AED100B86154,Frittenden Comunity,"Frittenden Memorial Hall, Cranbrook Road, Cranbrook, TN17 2DD",public247,"Public, 24/7",24/7 Access,False,,0.59012,51.138148
+E3947D7A-B22B-4D32-AED1-AED200D3741D,The Bell & Jorrocks,"The Bell And Jorrocks, Biddenden Road, Cranbrook, TN17 2EJ",public247,"Public, 24/7",24/7 Access,False,,0.593794,51.14147
+1077C90C-B0C6-4EB9-AE7D-AEB000E0F998,Larchmere House Nursing Home,"Larchmere House Nursing Home, Larchmere House, Biddenden, Frittenden,, Cranbrook, TN17 2EN",restricted,Restricted access,24/7 Access,False,,0.595472,51.140597
+B1FF506E-049A-4B85-92DE-B36C00874A6E,Jessamine House,"Biddenden Road, Cranbrook, TN17 2EP",restricted,Restricted access,24/7 Access,False,,0.600919,51.138249
+F3CE886F-31A4-4F76-A18F-AE8A00E486F0,Forestry England,"Bedgebury Visitor Centre, Bedgebury Road, Cranbrook, TN17 2SJ",restricted,Restricted access,Varied Access,False,,0.448904,51.072869
+F50DD07C-1158-4C5C-9FA2-B30600AA36C7,Search Press Ltd,"Wellwood, North Farm Road, Royal Tunbridge Wells, TN2 3DR",restricted,Restricted access,Varied Access,True,TN2,0.28219,51.154485
+52231408-E7A7-431E-A3D9-ADFA00B44F02,Twig Trading Ltd,"Bridge House, North Farm Road, Royal Tunbridge Wells, TN2 3DR",restricted,Restricted access,Varied Access,True,TN2,0.280579,51.153214
+0FD89BE3-6D3B-4758-AF72-AFC3009ADD49,Screwfix,"Unit 13 Spa Industrial Park, Longfield Road, Royal Tunbridge Wells, TN2 3EN",restricted,Restricted access,Varied Access,True,TN2,0.286673,51.153545
+0993BC26-861A-481D-B799-ADF900F8496E,Rocksolid Granite (Europe) Ltd,"Unit 28 Decimus Park, Kingstanding Way, Royal Tunbridge Wells, TN2 3GP",restricted,Restricted access,Varied Access,True,TN2,0.294875,51.161182
+B1537150-BB3B-42F0-A272-AE86009223AD,Adina Chemicals Ltd,"Unit 8 Decimus Park, Kingstanding Way, Royal Tunbridge Wells, TN2 3GP",restricted,Restricted access,Varied Access,True,TN2,0.293201,51.161754
+52F5DD1B-58DD-4A9B-8696-AEBA007DD309,Robin Hood,"Robin Hood, Sandhurst Road, Royal Tunbridge Wells, TN2 3TD",public247,"Public, 24/7",24/7 Access,True,TN2,0.28293,51.14443
+0E22D90E-4112-4054-8A26-AE75005906ED,Robin Hood,"Robin Hood, Sandhurst Road, Royal Tunbridge Wells, TN2 3TD",public247,"Public, 24/7",24/7 Access,True,TN2,0.28296,51.14423
+7AEBA0ED-3627-4B6B-9E20-ADC9013A7394,Nuffield Health Fitness & Wellbeing Centre,"Nuffield Health Fitness & Wellbeing Centre, Knights Way, Royal Tunbridge Wells, TN2 3UW",restricted,Restricted access,Varied Access,True,TN2,0.296655,51.152396
+8CF6FC54-E8DE-4A76-8882-B0370103770D,Nuffield Health Fitness & Wellbeing Centre,"Nuffield Health Fitness & Wellbeing Centre, Knights Way, Royal Tunbridge Wells, TN2 3UW",publicvar,"Public, limited hours",Varied Access,True,TN2,0.296655,51.152396
+EC365427-59E8-4509-8251-B049014D6A7B,Nuffield Health,"Knights Park Leisure Park, Off Longfield Road, Royal Tunbridge Wells, TN2 3UW",restricted,Restricted access,Varied Access,True,TN2,0.296655,51.152396
+63A27E98-9979-45BE-89D2-AE8C00F0F4F0,Southeastern Trains Limited,"High Brooms Railway Station, North Farm Road, Royal Tunbridge Wells, TN2 3XE",publicvar,"Public, limited hours",Varied Access,True,TN2,0.27737,51.149329
+7FB9A5B2-C7B8-4F9E-9EBA-AEE1011E5E4C,High Brooms Station,"High Brooms Station, North Farm Road High Brooms, Royal Tunbridge Wells, TN2 3XE",restricted,Restricted access,Varied Access,True,TN2,0.27737,51.149329
+0BDD9257-A581-40F9-81D0-AEAF00B98DE6,Hazeldene House,"Hazeldene House, Romford Road, Tunbridge Wells, TN2 4AY",restricted,Restricted access,Varied Access,True,TN2,0.336271,51.145397
+AA1869D2-503A-48E8-AC2C-B05B00A975A8,Hazeldene House,"Hazeldene House, Romford Road, Tunbridge Wells, TN2 4AY",public247,"Public, 24/7",24/7 Access,True,TN2,0.336271,51.145397
+BFE42133-1C02-4412-B763-AE9900DC610F,Pembury Primary School,"Pembury Primary School, Lower Green Road, Tunbridge Wells, TN2 4EB",restricted,Restricted access,24/7 Access,True,TN2,0.327222,51.151405
+4989D4CA-2C04-4148-8738-AF6C010C0164,Pembury Baptist Church,"Pembury Baptist Church, Romford Road, Tunbridge Wells, TN2 4HT",public247,"Public, 24/7",24/7 Access,True,TN2,0.32808,51.14744
+7C4C4962-34AA-44D7-8C3C-B23600D3021F,Oakley School,"Oakley School, Pembury Road, Royal Tunbridge Wells, TN2 4NE",restricted,Restricted access,Varied Access,True,TN2,0.302047,51.1403
+F4DBEDDA-EA1F-4483-BA0A-AE4700A387FF,Tesco Stores Ltd,"Tesco Pembury, Pembury Road, Royal Tunbridge Wells, TN2 4NE",publicvar,"Public, limited hours",Varied Access,True,TN2,0.312721,51.143958
+323FB365-2CFC-4773-ADE4-AFEE007BCD63,Paydens Pharmacy,"5 High Street, Pembury, Tunbridge Wells, TN2 4PH",public247,"Public, 24/7",24/7 Access,True,TN2,0.318531,51.142902
+4AFD98D6-4347-4FB2-BA28-B45900CEC2CB,Pembury Village Hall,"49 High Street, Tunbridge Wells, TN2 4PH",public247,"Public, 24/7",24/7 Access,True,TN2,0.318328,51.142618
+6AF6FB37-C3F5-4752-ACA9-B018008E773E,The Skinners Kent Academy,"The Skinners Kent Academy, Sandown Park, Royal Tunbridge Wells, TN2 4PY",publicvar,"Public, limited hours",Varied Access,True,TN2,0.292684,51.140387
+690FDDD2-DA21-49E2-8300-B1C600A00405,Reception,"Reception, Aspens Charities, Pembury, TN2 4QU",restricted,Restricted access,Varied Access,True,TN2,0.30945,51.13718
+9AD7BE2F-4ECD-4C53-A223-ADD400AE9CF2,Aspens,"Aspens, Cornford Lane, Royal Tunbridge Wells, TN2 4QU",public247,"Public, 24/7",24/7 Access,True,TN2,0.309495,51.136908
+AC838756-C3E6-4413-9B45-B2E400A6E736,Hospice In The Weald,"Hospice In The Weald, Maidstone Road, Tunbridge Wells, TN2 4TA",restricted,Restricted access,24/7 Access,True,TN2,0.330255,51.1548
+3FE115CB-1023-4CD3-B6A9-AE8B00B205DB,Kingswood Surgery,"Kingswood Surgery, Kingswood Road, Royal Tunbridge Wells, TN2 4UH",restricted,Restricted access,Varied Access,True,TN2,0.27639,51.132027
+DAB4B106-DD2B-4002-8EC4-B17A00AC175E,Salvation Army,"Salvation Army Hall, Bayhall Road, Royal Tunbridge Wells, TN2 4UT",public247,"Public, 24/7",24/7 Access,True,TN2,0.27362,51.13126
+8BFAD0A3-6584-46F4-B017-B1DA00960EA1,Spire Court,"Spire Court, Windmill Street, Tunbridge Wells, TN2 4UU",public247,"Public, 24/7",24/7 Access,True,TN2,0.27495,51.13059
+141A3B09-ECE0-402D-9562-B1E700A814BA,Hawkenbury Astroturf,"Hawkenbury Astroturf, Hawkenbury Recreation Ground, Royal Tunbridge Wells, TN2 5BW",public247,"Public, 24/7",24/7 Access,True,TN2,0.283064,51.123272
+8E52C716-DA3C-4B30-899D-AE8300B6DBC6,Twbc,"Hawkenbury Rec Sports Pavilion, Hawkenbury Road, Royal Tunbridge Wells, TN2 5BW",public247,"Public, 24/7",24/7 Access,True,TN2,0.284985,51.123107
+89307FD3-009F-4843-8BED-B3E000C6EFC2,St Peter's Ce Primary School,"St Peters C Of E Primary School, Hawkenbury Road, Royal Tunbridge Wells, TN2 5BW",restricted,Restricted access,Varied Access,True,TN2,0.283225,51.12203
+8EA28A23-0D16-45A3-9144-B15400D3FC71,Lawn Tennis Association,"Tunbridge Wells Tennis Club, Nevill Gate, Royal Tunbridge Wells, TN2 5ES",public247,"Public, 24/7",24/7 Access,True,TN2,0.267288,51.123
+141A694F-F872-46CE-9E8B-B29500F84E57,Tunbridge Wells Borough Council,"The Nevill Pavilion, Nevill Gate, Royal Tunbridge Wells, TN2 5ES",public247,"Public, 24/7",24/7 Access,True,TN2,0.267442,51.121828
+A6179143-F4B9-4DF3-B2BE-AE7C00D53B32,Tunbridge Wells Christian Fellowship Church,"Tunbridge Wells Christian Fellowship Church, South Site, Royal Tunbridge Wells, TN2 5RW",public247,"Public, 24/7",24/7 Access,True,TN2,0.2505,51.11758
+9D19EC31-A972-4624-807C-B24C011D7882,The Tunbridge Wells Hotel,"40a The Pantiles, Royal Tunbridge Wells, TN2 5TD",public247,"Public, 24/7",24/7 Access,True,TN2,0.257643,51.126159
+8DD31B4E-6C3E-4926-9BE0-AF3D01709264,Sunmagic Juices,"The Old Dairy, Biddenden Road, Headcorn, TN27 9LW",restricted,Restricted access,24/7 Access,False,,0.6322,51.162116
+C3EB061D-C2F8-4CA2-8886-B1D200BA632B,Unit 4,"Unit 4, 30-32 High Street, Headcorn, TN27 9NG",public247,"Public, 24/7",24/7 Access,False,,0.622564,51.1677
+CB10D0F5-BDE4-43CB-8EB6-B28E0078D120,Speldhurst Business Park,"Speldhurst Business Park, Langton Road, Tunbridge Wells, TN3 0AQ",public247,"Public, 24/7",24/7 Access,True,TN3,0.218533,51.1455
+B2CBFCB6-C130-4802-A7F6-B11000C95C71,2 Oxlea,"2 Oxlea, Tunbridge Wells, TN3 0BX",public247,"Public, 24/7",24/7 Access,True,TN3,0.219824,51.1313
+B3082E0C-11DE-4153-BDDB-B3FD00D58220,Langton Pavillion,"Langton Green Sports Pavilion, Winstone Scott Avenue, Tunbridge Wells, TN3 0JJ",public247,"Public, 24/7",24/7 Access,True,TN3,0.204255,51.135
+D7E68FC9-9F7A-4140-82AC-AEB300B81775,Langton Pavilion Cafe,"Langton Green Sports Pavilion Langton Green Recreation Ground, Winstone Scott Avenue, Tunbridge Wells, TN3 0JJ",public247,"Public, 24/7",24/7 Access,True,TN3,0.204255,51.135016
+F6A33839-7B10-459C-B011-B3D800FC09DC,Fordcombe Village Hall,"Fordcombe Village Hall, The Green, Fordcombe, TN3 0RT",public247,"Public, 24/7",24/7 Access,True,TN3,0.181165,51.1408
+73A9862E-173F-49FF-A7B0-B0BA00EE6347,11 The Paddock Hedge Barton Trailer Park,"11 The Paddock Hedge Barton Trailer Park, Chafford Lane, Fordcombe, TN3 0SN",public247,"Public, 24/7",24/7 Access,True,TN3,0.16961,51.1395
+229C7D89-9705-41DC-88F3-B22600CA13D3,Mansion House,"David Salomons Estate, Broomhill Road, Royal Tunbridge Wells, TN3 0TG",restricted,Restricted access,Varied Access,True,TN3,0.246204,51.1522
+16CFB6A7-3643-46E0-B6B2-ADE5010B4E41,Bidborough Primary School,"Spring Lane, Bidborough, Tunbridge Wells, TN3 0UE",public247,"Public, 24/7",24/7 Access,True,TN3,0.239128,51.166294
+DB196C49-C2CC-461C-B848-B02700B7BFFD,Bidborough Village Hall,"Bidborough Village Hall, Bidborough Ridge, Tunbridge Wells, TN3 0XD",public247,"Public, 24/7",24/7 Access,True,TN3,0.234944,51.169735
+031E5FBE-22D0-4D62-BE6C-ADEF00F02C1F,Bidborough Village Hall Car Park,"Bidborough Village Hall, Bidborough Ridge, Tunbridge Wells, TN3 0XD",public247,"Public, 24/7",24/7 Access,True,TN3,0.234944,51.169735
+09B45F1C-A77E-46F4-A01E-B0AB00C30AD7,St Marys C Of E Primary School,"St Marys C Of E Primary School, Pearse Place, Tunbridge Wells, TN3 8EJ",restricted,Restricted access,Varied Access,True,TN3,0.391562,51.098366
+BEDDAA09-2AC3-4759-BACC-B28E007B5E01,Red & Green Marketing Ltd,"The Brewery Business Centre, Bells Yew Green Road, Frant, TN3 9BD",public247,"Public, 24/7",24/7 Access,True,TN3,0.291347,51.1009
+266862D4-FC5D-43C6-96BB-B073008DBAAF,Frant Memorial Hall,"Frant Memorial Hall, The Green, Frant, TN3 9DR",public247,"Public, 24/7",24/7 Access,True,TN3,0.268686,51.09642
+8B12AEDF-1E3A-4871-A684-B3E000E88921,Frant Ce Primary School,"Frant Church Of England Primary School, Church Lane, Frant, TN3 9DX",restricted,Restricted access,Varied Access,True,TN3,0.267158,51.098055
+91296CEE-3617-4986-BAD8-B3FD00D5889A,Ashurst Village Hall,"Ashurst Mcdermott Village Hall, Ashurst Road, Tunbridge Wells, TN3 9TE",public247,"Public, 24/7",24/7 Access,True,TN3,0.159287,51.1303
+3097491F-C8BD-4D61-AD3F-AF5E010A03FF,Southborough Fire Station,"London Road, Tunbridge Wells, Tunbridge Wells, TN4 0BB",public247,"Public, 24/7",24/7 Access,True,TN4,0.260799,51.154048
+D2CFA245-E910-4CF9-9862-AD51008CAF95,Playing Field,"Playing Field, The Ridgewaye, Tunbridge Wells, TN4 0BF",restricted,Restricted access,Varied Access,True,TN4,0.26434,51.15592
+19AF8996-429E-4FFD-92BE-AEF20096A98C,Shop Asia,"50-52 London Road, Tunbridge Wells, TN4 0PT",public247,"Public, 24/7",24/7 Access,True,TN4,0.259633,51.157992
+4E1128D8-3E72-4485-B8F6-B1C60097B2E7,In Office/Kitchen White Cupboard On Right On Entry,"Total Orthodontics, 64 Mount Ephraim, Tunbridge Wells, TN4 8BG",restricted,Restricted access,Varied Access,True,TN4,0.25731,51.13352
+5A90DA9A-C4CC-4215-99F6-AEA000A9EAB2,Toad Rock Retreat Rusthall,"Toad Rock Retreat, 1 Upper Street, Tunbridge Wells, TN4 8NX",public247,"Public, 24/7",24/7 Access,True,TN4,0.239869,51.1347
+FC9D2093-DED5-4AAE-9C3A-B05200E94C23,Rusthall Primary,"Rusthall St Pauls C E School, Rusthall High Street, Tunbridge Wells, TN4 8RZ",publicvar,"Public, limited hours",Varied Access,True,TN4,0.22723,51.135212
+0204D711-248A-4EE2-A77E-B185010070ED,Molyneux Almshouses,"Molyneux Almshouses, 9 Rusthall High Street, Tunbridge Wells, TN4 8SE",public247,"Public, 24/7",24/7 Access,True,TN4,0.22716,51.13596
+5AA1B55D-DC79-4333-8543-B261010769EA,Wickham Gardens Allotments,"Wickham Gardens, Tunbridge Wells, TN4 8TD",restricted,Restricted access,24/7 Access,True,TN4,0.235884,51.1383
+080AECC2-266E-4EF5-BA33-B42E00E59F1B,Red Lion Public House,"Red Lion, 82 Lower Green Road, Royal Tunbridge Wells, TN4 8TW",public247,"Public, 24/7",24/7 Access,True,TN4,0.231778,51.1391
+05E2F2DF-EC75-45CC-A0BA-B1EF00E2E463,United Reformed Church Rusthall,"United Reformed Church, Manor Road, Tunbridge Wells, TN4 8UD",public247,"Public, 24/7",24/7 Access,True,TN4,0.230456,51.1354
+13E2C703-2DCA-4F06-9031-AE7500DB8482,Rusthall Medical Centre,"Nellington Road, Rusthall, Tunbridge Wells, TN4 8UW",restricted,Restricted access,Varied Access,True,TN4,0.224777,51.136025
+5258E1F2-5041-4C32-A500-B23D0098E039,St Matthews Church,"St Matthews Church, High Brooms Road, Tunbridge Wells, TN4 9BW",public247,"Public, 24/7",24/7 Access,True,TN4,0.274337,51.150767
+E2752CDB-D1C6-4688-8D8B-B45F010B4E92,Busy Bees Day Nursery,"Busy Bees Day Nursery, Silverdale Road, Royal Tunbridge Wells, TN4 9HU",restricted,Restricted access,Varied Access,True,TN4,0.272784,51.1469
+A3997FE5-4E8A-4EE1-8C06-AF1700A4E6BB,St Lukes Church,"St Lukes Church, St Lukes Road, Royal Tunbridge Wells, TN4 9JH",public247,"Public, 24/7",24/7 Access,True,TN4,0.26896,51.14477
+E11D34B5-E9F5-4301-AE0B-B10600E15230,Tunbridge Wells,"Richer Sounds, 18 St. Johns Road, Royal Tunbridge Wells, TN4 9NT",restricted,Restricted access,Varied Access,True,TN4,0.261824,51.138116
+5242F8C4-8578-4F34-BB25-B08E00D00376,Tunbridge Wells Dental Centre,"Tunbridge Wells Dental Centre, 46 St Johns Road, Royal Tunbridge Wells, TN4 9NT",restricted,Restricted access,Varied Access,True,TN4,0.261768,51.139055
+63CEF930-3803-4AF4-855E-B4440082BCD0,Tn4 9ny,"58a St Johns Road, Royal Tunbridge Wells, TN4 9NY",public247,"Public, 24/7",24/7 Access,True,TN4,0.260477,51.141209
+9D39B6E5-BF99-49A3-ACA3-AE91008804EB,The Skinners School,"The Skinners School, St Johns Road, Royal Tunbridge Wells, TN4 9PG",publicvar,"Public, limited hours",Varied Access,True,TN4,0.261112,51.14289
+BE5BF75B-8DB3-4D12-AD5C-B00400EB7666,Sports Hall Entrance Lobby (Left Hand Side In An Unlocked Cabinet),"The Skinners School, St Johns Road, Royal Tunbridge Wells, TN4 9PG",publicvar,"Public, limited hours",Varied Access,True,TN4,0.261112,51.14289
+C24AFFE8-53DC-46AB-821F-B02C00A81EA7,Tesco Tunbridge Wells Express,"St Johns Rd, Royal Tunbridge Wells, TN4 9TU",publicvar,"Public, limited hours",Varied Access,True,TN4,0.259804,51.141766
+B2D222AA-1E32-45B2-9FD2-B404010043EA,Olive Academy,"Olive Academy, St Johns Road, Royal Tunbridge Wells, TN4 9TX",restricted,Restricted access,Varied Access,True,TN4,0.259987,51.1486
+51B2A185-94A7-47F3-B425-AF1300F16504,Tunbridge Wells Sports Ground Ltd,"Tunbridge Wells Sports Ground Ltd, St Johns Road, Royal Tunbridge Wells, TN4 9UY",public247,"Public, 24/7",24/7 Access,True,TN4,0.263144,51.147312
+B382D727-66E5-487A-8A99-AE2A013AF0A6,Masonic Hall,"Tunbridge Wells Masonic And Banqueting Centre, St Johns Road, Royal Tunbridge Wells, TN4 9UY",restricted,Restricted access,Varied Access,True,TN4,0.263,51.14748
+1A3137E3-0FC3-4BFD-A4C4-B01700FEA02F,The Commemoration Hall,"The Commemoration Hall, High Street, Wadhurst, Wadhurst, TN5 6AP",public247,"Public, 24/7",24/7 Access,False,,0.33951,51.06193
+5EC83AD9-73E3-46A6-801C-ADAA00810190,Wadhurst Bowls Club,"Wadhurst Bowls Club, Washwell Lane, Wadhurst, TN5 6BP",restricted,Restricted access,24/7 Access,False,,0.336957,51.061268
+37D8B3C5-89F2-4A35-AD35-B3A100D40684,Sacred Heart Catholic Church,"Sacred Heart Catholic Church, Mayfield Lane, Wadhurst, TN5 6DQ",public247,"Public, 24/7",24/7 Access,False,,0.32433,51.065055
+A3BD0B6C-2D52-4687-A4FC-B1CF00F82E4D,Woods Green Telephone Box,"Telephone Box, Wyck Lane, Woods Green, TN5 6QN",public247,"Public, 24/7",24/7 Access,False,,0.339343,51.077486
+04912771-A326-438E-84B1-AF0800A93B6B,Se Trains Ltd,"Wadhurst Station, Station House Station Hill, Wadhurst, TN5 6RZ",public247,"Public, 24/7",24/7 Access,False,,0.31298,51.07334
+B2F82CD0-5B90-42BA-851B-B2AD010A2F80,Sparrows Green Recreation Ground,"Sparrows Green Sports Pavillion, South View Road, Wadhurst, TN5 6TW",public247,"Public, 24/7",24/7 Access,False,,0.33529,51.072091
+520DB131-5C45-4FA5-AB08-B15600E78854,Waitrose Crowborough,"Croft Road, Crowborough, TN6 1DL",publicvar,"Public, limited hours",Varied Access,False,,0.161597,51.057812
+C3D3E486-6CB7-48A5-AD4D-AE6F0084EE82,Crowborough - Social Club,"Croft Road, Crowborough, TN6 1DL",public247,"Public, 24/7",24/7 Access,False,,0.161597,51.057812
+AB5B252D-3C67-41A6-9125-AE6E00D89D7A,Crowborough - Saxonbury House,"Saxonbury House Surgery, Croft Road, Crowborough, TN6 1DL",public247,"Public, 24/7",24/7 Access,False,,0.161597,51.057812
+E1C5CEFF-4DC7-4B0A-9C73-AE6E00D8A12C,Crowborough - Scout Hut (Whitehill Road),"Whitehill Road, Crowborough, TN6 1JA",public247,"Public, 24/7",24/7 Access,False,,0.161157,51.051806
+E415486D-52B1-4CA1-B057-B0D0011F0D48,Bricklayers Arms,"The Bricklayers Arms, Whitehill Road, Crowborough, TN6 1JA",restricted,Restricted access,Varied Access,False,,0.161554,51.0484
+E5080890-7FA9-492C-87DE-B3AC00FDC9FB,Ghyll Road,"Inverness, Ghyll Road, Crowborough, TN6 1ST",public247,"Public, 24/7",24/7 Access,False,,0.155183,51.065162
+DA0B48A9-D3E3-4951-8E39-B23D0107C340,Forest Fold Baptist Church,"Forest Fold Baptist Chapel, London Road, Crowborough, TN6 1TD",public247,"Public, 24/7",24/7 Access,False,,0.153228,51.0713
+4031A853-A8DE-4E3D-9C32-B40B0107A207,Foundry Crowborough,"Hole Farm, Lye Green, Crowborough, TN6 1UU",publicvar,"Public, limited hours",Varied Access,False,,0.154461,51.084931
+1EE73AE7-390F-495D-A523-AE6E00D8C3EC,Crowborough - Sports And Pilates Therapy,"Connors Yard, Beeches Road, Crowborough, TN6 2AH",public247,"Public, 24/7",24/7 Access,False,,0.174715,51.053371
+009190D1-3FD3-4858-B4E7-AE6E00D8DA27,Crowborough - Poundfield Hall,"Green Lane, Crowborough, TN6 2BX",public247,"Public, 24/7",24/7 Access,False,,0.180458,51.057769
+24B28DDA-4772-429B-87DF-AE6E00D8A624,Jarvis Brook Memorial Hall,"24 Crowborough Hill, Jarvis Brook, Jarvis Brook, TN6 2EG",public247,"Public, 24/7",24/7 Access,False,,0.188034,51.047753
+ABEF2064-5FDF-4EDD-BDFD-B27300EC1D74,Unit 1 Crowborough Trading Park,"Unit 1 Crowborough Trading Park, Crowborough Hill, TN6 2JL",restricted,Restricted access,Varied Access,False,,0.187984,51.0476
+05FC2F1D-3E55-436A-A14D-B0CE00B83423,Veolia Es South Downs Ltd,"Wealden Household Waste Recycling Depot, Farningham Road, Jarvis Brook, TN6 2JR",restricted,Restricted access,Varied Access,False,,0.1827,51.044
+A4EC95C3-27B4-4947-8974-AE450102A6F3,St Mary's Catholic Primary School,"Chapel Green, Crowborough, TN6 2LB",restricted,Restricted access,Varied Access,False,,0.166354,51.05492
+987900ED-D072-4403-8543-B13C0125BBD1,Beeches Farm Road,"1 Beeches Farm Road, Crowborough, TN6 2NY",public247,"Public, 24/7",24/7 Access,False,,0.1754,51.05132
+5C6CFA79-E194-449D-9F1C-B38B00F543CF,23 Millbrook Road,"23 Millbrook Road, Crowborough, TN6 2RT",public247,"Public, 24/7",24/7 Access,False,,0.168964,51.0589
+80FC4FEC-4489-414D-9DE7-B29601250DA6,Crowborough Rugby Football Club,"Crowborough Rugby Football Club, Eridge Road, Crowborough, TN6 2XB",public247,"Public, 24/7",24/7 Access,False,,0.183398,51.065048
+293EF755-412B-433C-8861-AE6E00D8A9B7,Jarvis Brook - Starglade Property,"Knowle House, Rotherfield Road, Jarvis Brook, TN6 3DY",public247,"Public, 24/7",24/7 Access,False,,0.190245,51.045922
+38AC5733-21A0-4480-B61D-B47D017A3A0D,Mandolin Way,"1 Mandolin Way, Crowborough, TN6 3GD",public247,"Public, 24/7",24/7 Access,False,,0.182854,51.041239
+FC519AD9-E6F6-4C22-A394-B10300E4942C,Rotherfield Memorial Insititue,"The Institute, North Street, Rotherfield, TN6 3LX",public247,"Public, 24/7",24/7 Access,False,,0.219509,51.0466
+01DB57E0-2653-43AB-97FA-AE6E00D8B9BA,Rotherfield Village Hall,"Rotherfield Village Hall, North Street, Rotherfield, TN6 3LX",public247,"Public, 24/7",24/7 Access,False,,0.219338,51.047808
+81B3E5B5-D086-43C3-AF75-AFDD011BD161,Culverden Veterinary Group,"Beechview Parade, 4 Walshes Road, Crowborough, TN6 3RA",public247,"Public, 24/7",24/7 Access,False,,0.172574,51.041607
+3AF57769-9068-4038-897C-AE7600C60BFB,Kings' Hall,"The Kings Hall, Withyham Road, Withyham, TN7 4BD",public247,"Public, 24/7",24/7 Access,False,,0.13421,51.101139
+0C6E6414-17D1-4CF3-8A47-AF3100FA4BF9,Former Telephone Box North Of The Wheatsheaf,"Former Telephone Box North Of The Wheatsheaf, Hever Road, Bough Beech, TN8 7NU",public247,"Public, 24/7",24/7 Access,False,,0.128756,51.201412
+7BB267F5-01A4-48B1-A595-B00500E49E61,Royal Mail Tonbridge Do/Rtw,"Royal Mail Sorting Office, 20 Vale Rise, Tonbridge, TN9 1AA",restricted,Restricted access,24/7 Access,False,,0.287025,51.190124
+8696EA48-FCDB-4EE5-A549-B04200899A23,Cashiers Area Tonbridge And Malling Borough Council,"Cashiers Area Tonbridge And Malling Borough Council, Castle Street, Tonbridge, TN9 1BG",restricted,Restricted access,Varied Access,True,TN9,0.274298,51.196451
+7A3CBCB4-87A3-4282-98BC-B0EC00B7F4D7,Circle Housing Russet,"4 New Wharf Road, Tonbridge, TN9 1DS",restricted,Restricted access,Varied Access,True,TN9,0.273653,51.1949
+C10818D0-E5FB-4CCF-9B38-B36500F3C15C,Fisher Hall,"41 Lyons Crescent, Tonbridge, TN9 1EY",public247,"Public, 24/7",24/7 Access,True,TN9,0.278824,51.195912
+B21521F8-B62C-49B5-BF8E-B2D500A1B993,Tonbridge Total Orthodontics,"20 Lyons Crescent, Tonbridge, TN9 1EY",restricted,Restricted access,Varied Access,True,TN9,0.27788,51.1956
+242BC20D-B894-4E20-BBEA-AE1A00DA8A90,The Governors Of Tonbridge School Per The Bursar,"Tonbridge School, High Street, Tonbridge, TN9 1JP",restricted,Restricted access,24/7 Access,True,TN9,0.27546,51.19993
+43EDD04B-DB39-4EA1-984E-B2BA006B568D,Swanmead Sports Clubs,"Swanmead Sports Ground, Swanmead Way, Tonbridge, TN9 1PP",public247,"Public, 24/7",24/7 Access,True,TN9,0.287968,51.1982
+4EE16207-0FC1-4896-97BD-B0DE00BA4089,Star Platforms Ltd,"Unit C, Cannon Lane, Tonbridge, TN9 1PP",publicvar,"Public, limited hours",Varied Access,True,TN9,0.285965,51.198207
+19220B09-1601-45A1-A733-B09100F810E5,R And D Fitness,"Unit 8 Ton Business Park, 2-8 Morley Road, Tonbridge, TN9 1RA",restricted,Restricted access,Varied Access,True,TN9,0.286762,51.192682
+17184010-0B54-4BFE-A41D-AF5E0109FD54,Tonbridge Fire Station,"Vale Road, Tonbridge, Tonbridge, TN9 1SW",public247,"Public, 24/7",24/7 Access,True,TN9,0.289264,51.193352
+25FD4F39-82D1-409B-9C98-B0D500D361DE,Tonbridge Constitutional Club,"6 Barden Road, Tonbridge, TN9 1TS",public247,"Public, 24/7",24/7 Access,True,TN9,0.271344,51.1923
+5F713916-81C9-4A6A-AF36-AEE101193D7A,Tonbridge Station Platform 1&2,"Tonbridge Station, Barden Road Tonbridge, Tonbridge, TN9 1TT",public247,"Public, 24/7",24/7 Access,True,TN9,0.270759,51.19143
+2BE51AD7-E9E1-45DA-8EE6-AEE10119C34C,Tonbridge Station Platform 3,"Tonbridge Station Platform 3, Barden Road Tonbridge, Tonbridge, TN9 1TT",public247,"Public, 24/7",24/7 Access,True,TN9,0.270759,51.19143
+5B195D00-8BDB-4471-B500-ADCC009478FB,Crossfit Tonbridge,"Gym Building, The Hayesbrook School, Brook Street, Tonbridge, TN9 2PH",publicvar,"Public, limited hours",Varied Access,True,TN9,0.259817,51.189558
+C4EE7EBC-4A2D-4C05-AAE2-AE7500A269C6,Thomson Snell & Passmore,"Heathervale House, 2-4 Vale Avenue, Tunbridge Wells, TN1 1DJ",restricted,Restricted access,Varied Access,True,TN1,0.261277,51.130476
+2AAC2C4F-79E7-42D1-B500-B00000A491FA,7 Vale Avenue,"7 Vale Avenue, Royal Tunbridge Wells, TN1 1DJ",restricted,Restricted access,Varied Access,True,TN1,0.260935,51.129916
+EEA601D2-68F1-4BE0-A82B-B37C01128483,N Family,"Hanover House, 18 Mount Ephraim Road, Royal Tunbridge Wells, TN1 1ED",restricted,Restricted access,Varied Access,True,TN1,0.261415,51.1351
+355F992E-90AA-446E-BF8A-AE75009E6C02,Halo Gym,"Performance Gyms Ltd Southdown House, Rock Villa Road, Royal Tunbridge Wells, TN1 1HA",restricted,Restricted access,Varied Access,True,TN1,0.26146,51.13556
+DE14684E-3686-4D03-B53B-AF4D0108E2D9,Mp Evans Group Plc,"3 Clanricarde Gardens, Royal Tunbridge Wells, TN1 1HQ",restricted,Restricted access,Varied Access,True,TN1,0.261681,51.131718
+F0FCB522-B72E-436A-9049-AF8100C48EC5,Trinity Theatre And Arts Centre,"Trinity Theatre And Arts Centre, Church Road, Tunbridge Wells, TN1 1JP",publicvar,"Public, limited hours",Varied Access,True,TN1,0.26192,51.13275
+CEE4D38B-CF84-4339-B6B1-B19B00B5ECB5,Miles Garage Ltd,"69 Mount Sion, Royal Tunbridge Wells, TN1 1TN",public247,"Public, 24/7",24/7 Access,True,TN1,0.26391,51.12689
+002EB07E-84D1-4167-A5B6-B3F000C59AC4,Christ Church,"Christ Church, High Street, Royal Tunbridge Wells, TN1 1UT",publicvar,"Public, limited hours",Varied Access,True,TN1,0.262924,51.1288
+7A36A835-78FB-4B20-A513-AFC700B4AC00,Savills,"53 High Street, Royal Tunbridge Wells, TN1 1XU",restricted,Restricted access,Varied Access,True,TN1,0.261596,51.127628
+9C7E5C53-AD70-4D88-9900-B48200A5C58F,St Barnabas Ce Va Primary School,"St Barnabas C Of E Primary School, Quarry Road, Royal Tunbridge Wells, TN1 2EY",restricted,Restricted access,Varied Access,True,TN1,0.269934,51.1397
+8DF21F62-0A1A-4A29-8379-AF9400C3A450,Tunbridge Wells Borough Council,"The Hub, Rochdale Road, Tunbridge Wells, TN1 2JB",public247,"Public, 24/7",24/7 Access,True,TN1,0.272848,51.142575
+327CDA10-F7FA-42A6-B8E9-B07A00850387,Spn,"40a Camden Road, Royal Tunbridge Wells, TN1 2PT",publicvar,"Public, limited hours",Varied Access,True,TN1,0.268001,51.135017
+638140DE-BB42-4CA7-AA04-B10200FBB04F,Infinity Technology Solutions Ltd,"The Coach House Spencer Mews, Camden Road, Royal Tunbridge Wells, TN1 2PY",restricted,Restricted access,Varied Access,True,TN1,0.267656,51.1344
+E6239D6C-7851-4744-A2AC-B43700DDE860,The Black Horse,"169 Camden Road, Royal Tunbridge Wells, TN1 2RF",public247,"Public, 24/7",24/7 Access,True,TN1,0.269986,51.1381
+371978B9-DB8D-4702-966C-B2D701055EBB,Royal Tunbridge Wells Advertising Kiosk,"Outside 32-40 Calverley Road, Royal Tunbridge Wells, TN1 2TD",public247,"Public, 24/7",24/7 Access,True,TN1,0.265148,51.134198
+5006738F-255F-4512-9C02-B2D70105620C,Royal Tunbridge Wells Advertising Kiosk,"Outside 41-43 Calverley Road, Royal Tunbridge Wells, TN1 2TT",public247,"Public, 24/7",24/7 Access,True,TN1,0.26581,51.134094
+EEF6E4BB-BC3C-4DCB-BAC6-AE820090B132,Consultus Care & Nursing Ltd,"Consultus Care & Nursing Ltd, 17 London Road, Tonbridge, TN10 3AB",restricted,Restricted access,Varied Access,True,TN10,0.275987,51.201664
+D18D2594-8C7A-4F1B-9028-B417010B23D5,Hilden Grange School,"Hilden Grange School, 62 Dry Hill Park Road, Tonbridge, TN10 3BX",restricted,Restricted access,Varied Access,True,TN10,0.271043,51.204127
+83A8B98E-90AC-47AC-8F92-B26100ED4425,The North Tonbridge Community Association Ltd,"Six In One Community Centre, Northwood Road, Tonbridge, TN10 3HH",public247,"Public, 24/7",24/7 Access,True,TN10,0.276745,51.214575
+18319E48-32B4-4DBB-9155-B0C700BAE8C4,Tonbridge Baptist Church,"Tonbridge Baptist Church, Derwent Road, Tonbridge, TN10 3HZ",public247,"Public, 24/7",24/7 Access,True,TN10,0.27542,51.21065
+BF84342E-374D-44BB-B8CF-B203010A5E47,Tonbridge Angels F C Per The Secretary,"Longmead Stadium, Darenth Avenue, Tonbridge, TN10 3JF",restricted,Restricted access,Varied Access,True,TN10,0.26925,51.21126
+9867C5FC-CF05-4C69-9DC9-B25D00978CFC,Longmead Sports Ground,"Tonbridge Farm Pavilion, Darenth Avenue, Tonbridge, TN10 3JF",public247,"Public, 24/7",24/7 Access,True,TN10,0.269758,51.210714
+8A80AE4B-1F28-4644-BECE-AE8C007E64F6,Methodist Church,"Tonbridge Methodist Church, Higham Lane, Tonbridge, TN10 4JG",public247,"Public, 24/7",24/7 Access,True,TN10,0.295073,51.211839
+509F56E1-818A-4588-BD9F-AE8000D231A6,St Philip's Church,"St Philip's Church, Salisbury Road, Tonbridge, TN10 4PA",public247,"Public, 24/7",24/7 Access,True,TN10,0.28531,51.20818
+551F4BB9-1F0D-4FCA-88B9-B02D016E31D2,Golden Green Association Village Hall,"Village Hall, Three Elm Lane, Tonbridge, TN11 0BN",public247,"Public, 24/7",24/7 Access,True,TN11,0.343134,51.210004
+2C668D5D-D837-406A-941D-AEC600BB300C,Phone Box Hadlow Square,"Land Fronting Pound House, Maidstone Road, Tonbridge, TN11 0DE",public247,"Public, 24/7",24/7 Access,True,TN11,0.33923,51.22452
+A11305DF-2FE6-41C1-8BF1-B18F00968336,Kent Education Committee Re Hadlow C P School,"Hadlow Primary School, School Lane, Tonbridge, TN11 0EH",restricted,Restricted access,Varied Access,True,TN11,0.338542,51.2251
+AFFEC064-2ADD-4C5B-9C72-B366008019E0,Premier Inn Tonbridge,"Pembury Road, Tonbridge, Tonbridge, TN11 0NA",public247,"Public, 24/7",24/7 Access,True,TN11,0.281892,51.1818
+8DAFDFAA-23A9-4120-96E3-B4070071C22E,Tonbridge Premier Inn,"Premier Lodge Vauxhall Inn, Pembury Road, Tonbridge, TN11 0NA",restricted,Restricted access,24/7 Access,True,TN11,0.281892,51.1818
+7F3D8CF3-E039-4389-B26F-B49600DE194D,Tudley Bt Box,"Public Telephone 10m From Spring Cottage, Crockhurst Street 6m From B2017, Crockhurst Street, Tonbridge, TN11 0NT",public247,"Public, 24/7",24/7 Access,True,TN11,0.319175,51.1819
+486B7BC5-7CCC-4CFF-980B-AE7800FFFF55,Goldsmid Hall,"Goldsmid Hall, Tudeley Road, Tonbridge, TN11 0NW",publicvar,"Public, limited hours",Varied Access,True,TN11,0.312944,51.186125
+B9409465-46CA-4D4C-A9EB-B347010BD786,Penshurst Village Hall,"Penshurst Village Hall, High Street, Penshurst, TN11 8BP",public247,"Public, 24/7",24/7 Access,True,TN11,0.182039,51.172809
+F4D33844-5A0B-4CD2-A85B-AD9D008173B1,Swaylands,"Swaylands, Penshurst Road, Tonbridge, TN11 8DZ",restricted,Restricted access,24/7 Access,True,TN11,0.192721,51.166856
+018AF6DB-D3C5-4C35-915D-ADD300CEE852,Leigh Parish Council,"Charcott, Charcott Green, Leigh, TN11 8LG",public247,"Public, 24/7",24/7 Access,True,TN11,0.176626,51.203213
+752FE8BE-1159-4848-9714-AEE1011E7604,Hildenborough Station,"Hildenborough Station, Rings Hill Hildenborough, Tonbridge, TN11 8LX",public247,"Public, 24/7",24/7 Access,True,TN11,0.225767,51.214706
+A2ACE369-6AA3-4F1B-A8BE-B44F00C1A8F0,Leigh Cricket Pavilion,"Leigh Cricket Club, The Green, Leigh, TN11 8QS",public247,"Public, 24/7",24/7 Access,True,TN11,0.217378,51.196229
+DF8C05A8-FFFE-4AB8-B9E2-B29300EDD84E,B P Oil Ltd B P House,"81 Tonbridge Road, Tonbridge, TN11 9BJ",public247,"Public, 24/7",24/7 Access,True,TN11,0.257063,51.2093
+5CB0AC6C-5745-49C1-8589-B0CE00C83C75,Scotts Project Trust,"Main Hall ,  Scotts Project St Peters Row, De La Rue Close, Tonbridge, TN11 9NN",public247,"Public, 24/7",24/7 Access,True,TN11,0.289996,51.2249
+B99C90C8-9739-4795-B5F8-B01800A499F9,Managers Office St Peters Row,"Managers Office St Peters Row, Delarue Close, Tonbridge, TN11 9NN",public247,"Public, 24/7",24/7 Access,True,TN11,0.28999,51.22479
+1337CAE3-0912-483C-AE2F-B3C900BF5F5C,Shipbourne School,"Shipbourne County Primary School, Stumble Hill, Tonbridge, TN11 9PB",restricted,Restricted access,Varied Access,True,TN11,0.279417,51.2445
+77C04C74-7835-413A-8FCB-AE8200A30261,The Chaser,"Managers Accommodation The Chaser, Stumble Hill, Tonbridge, TN11 9PE",public247,"Public, 24/7",24/7 Access,True,TN11,0.279159,51.246783
+5C0EB521-41BC-4CB4-A177-AEA500C8B758,Staplehurst Monarchs Football Club,"Jubilee Field, Headcorn Road, Staplehurst, TN12 0DS",public247,"Public, 24/7",24/7 Access,True,TN12,0.562141,51.166298
+94A774FA-C650-4AA2-BA54-AE9200A183AC,Staplehurst Library,"Staplehurst Library, The Parade, Staplehurst, TN12 0LA",public247,"Public, 24/7",24/7 Access,True,TN12,0.552131,51.161045
+25257547-4A74-4D4B-A668-B070008A123C,The Telephone Box,"The Pound, Pound Road, Tonbridge, TN12 5BE",public247,"Public, 24/7",24/7 Access,True,TN12,0.385544,51.213051
+177E2864-F464-4013-9011-B0700087E60B,Jubilee Hall,"Jubilee Hall, Pippin Road, Tonbridge, TN12 5BT",public247,"Public, 24/7",24/7 Access,True,TN12,0.383996,51.21551
+DC5DC768-6B64-48EF-858D-B45D00DBCC67,County Plumbing Services Ltd,"Archers Park, 5 Branbridges Road, Tonbridge, TN12 5HP",publicvar,"Public, limited hours",Varied Access,True,TN12,0.396195,51.2102
+6CE7F711-6286-4A87-9AFF-B3C300E21510,East Peckham Village Hall,"East Peckham Village Hall, Bush Road, Tonbridge, TN12 5LL",restricted,Restricted access,24/7 Access,True,TN12,0.381664,51.2181
+3B17F2E8-9D9C-4A8C-A3F4-AEA200E56FEB,Paddock Wood Make Ready Centre,"Paddock Wood Make Ready Centre, Eldon Way, Paddock Wood, Tonbridge, TN12 6BE",public247,"Public, 24/7",24/7 Access,True,TN12,0.384926,51.183618
+0D62BBE6-4144-4D6D-B76C-AE8400878F72,Paddock Wood Town Council,"Paddock Wood Pavilion, Green Lane, Tonbridge, TN12 6BF",public247,"Public, 24/7",24/7 Access,True,TN12,0.39554,51.17451
+592FEA09-480D-4553-A6D6-AF4600FF6E70,41 Blackberry Way,"41 Blackberry Way, Tonbridge, TN12 6BP",restricted,Restricted access,Varied Access,True,TN12,0.395148,51.17627
+1877A39B-2B9A-4785-A508-AED1011B0D29,Foresters Arms,"Foresters Arms, 86 Maidstone Road, Tonbridge, TN12 6DX",public247,"Public, 24/7",24/7 Access,True,TN12,0.384987,51.178706
+3EA37796-7BF4-4140-8A38-ADF000909421,St Andrews Church Hall,"St Andrews Church Hall, Maidstone Road, Tonbridge, TN12 6DZ",restricted,Restricted access,Varied Access,True,TN12,0.385244,51.176471
+3686C437-9DCC-4F7B-9F9E-AEA700D9AE14,Tesco Express,"Tesco Express, 14 Commercial Road, Tonbridge, TN12 6EL",restricted,Restricted access,Varied Access,True,TN12,0.388623,51.181213
+0BD0122E-A2BE-4D80-B76E-B48400AF205B,Nationwide Paddock Wood,"55 Commercial Street, Tonbridge, TN12 6EN",public247,"Public, 24/7",24/7 Access,True,TN12,0.38936,51.1814
+B5FC30FE-62C4-412F-9AE6-B27900E9FE6E,Paddock Wood Railway Station,"Paddock Wood Railway Station, Station Road, Tonbridge, TN12 6ER",public247,"Public, 24/7",24/7 Access,True,TN12,0.389104,51.1822
+518BC765-40A3-456F-8C16-AEE800C11267,Paddock Wood Station,"Paddock Wood Station, Station Approach Paddock Wood, Tonbridge, TN12 6ER",publicvar,"Public, limited hours",Varied Access,True,TN12,0.389104,51.18222
+E5CE16C9-365B-4BD1-9FCC-B15600EFCC63,Waitrose Paddock Wood,"Church Road, Paddock Wood, Tonbridge, TN12 6EX",publicvar,"Public, limited hours",Varied Access,True,TN12,0.393728,51.179878
+A9702503-5C8A-4B9C-A7E9-AF2500F2E2C6,Se Trains Limited,"Beltring Station, Beltring Road Beltring, Tonbridge, TN12 6QH",public247,"Public, 24/7",24/7 Access,True,TN12,0.399886,51.204114
+C076C262-36AA-48D0-AC1F-B0D000B4322F,Cannon Park,"Cannon Park, 2 Transfesa Road, Tonbridge, TN12 6UF",publicvar,"Public, limited hours",Varied Access,True,TN12,0.392534,51.18711
+7B2DAAF0-BF56-46F1-AD53-AEA700D7309C,The Star Public House,"The Star Public House, Maidstone Rd, Matfield,, Tonbridge, TN12 7JR",public247,"Public, 24/7",24/7 Access,True,TN12,0.372233,51.153523
+ED7791C5-D89A-4AA1-9EF8-B2D100FC44C2,Northiam Farm,"Northiam Farm Land And Buildings, School House Lane, Tonbridge, TN12 8BS",public247,"Public, 24/7",24/7 Access,True,TN12,0.459326,51.14955
+508CFA5C-ECFA-4F95-8FBF-B0C70118476B,Marden Telephone Box,"Telephone Box, Library And Heritage Centre, High Street, Marden, TN12 9DP",public247,"Public, 24/7",24/7 Access,True,TN12,0.495373,51.17385
+3E4C7816-0DA3-4EF6-9818-AEBC00A57768,Marden Village Club,"Marden Village Club, Albion Road, Marden, TN12 9DT",public247,"Public, 24/7",24/7 Access,True,TN12,0.497822,51.172826
+B0E24655-7E2F-48B4-A102-B1F700A29B75,Limelite Lighting,"Limelite Lighting, Unit 4b Fruit Show Business Park, Marden, TN12 9GZ",restricted,Restricted access,Varied Access,True,TN12,0.489678,51.1782
+FAF7CC9B-F613-4E9C-8D3E-B46600E20651,Goods In,"Limelite Lighting Ltd, Unit 4 Fruit Show Business Park, Marden, TN12 9GZ",restricted,Restricted access,Varied Access,True,TN12,0.489678,51.1782
+1C92DC95-086A-495E-BAAB-AEE800C59A2C,Marden Station,"Marden Station, Church Green Lane Marden, Marden, TN12 9HS",public247,"Public, 24/7",24/7 Access,True,TN12,0.491052,51.174625
+6F7FBCEE-F9B5-43C8-B192-B4B200F4C3DD,Tanner Farm Park,"Staff Accommodation Tanner Farm, Goudhurst Road, Marden, TN12 9ND",public247,"Public, 24/7",24/7 Access,True,TN12,0.475407,51.14761
+D2DC727E-4429-499F-BC3A-AF5E010A1618,Marden Fire Station,"Pattenden Lane, Marden, Marden, TN12 9QJ",public247,"Public, 24/7",24/7 Access,True,TN12,0.489962,51.17815
+FCEED7CB-90C7-4EB0-8828-B0FA00F81274,Weald Community Primary School,"Weald Community Primary School, Long Barn Road, Sevenoaks Weald, TN14 6PY",restricted,Restricted access,Varied Access,False,,0.18639,51.2371
+0CD5DD36-2D38-499A-9D36-B13900D31381,Weald Parish Council,"Weald Recreation Ground,, Morleys Road, Weald, TN14 6QR",public247,"Public, 24/7",24/7 Access,False,,0.1948,51.23803
+629BD7B6-8997-4A2D-903C-AEB500C116A7,Reuthes Cafe Crown Point Nursery,"Reuthes Cafe Crown Point Nursery, Sevenoaks Road, Sevenoaks, TN15 0HB",publicvar,"Public, limited hours",Varied Access,False,,0.259939,51.275552
+6B4EBF65-89CC-41B4-8423-B24300CFCEC4,Kent Education Committee Re Plaxtol C P School,"Plaxtol County Primary School, School Lane, Sevenoaks, TN15 0QD",publicvar,"Public, limited hours",Varied Access,False,,0.294993,51.2577
+223B21E3-46E8-454E-942A-AE9E01112B87,Plaxtol Memorial Hall,"Plaxtol Memorial Hall, School Lane, Sevenoaks, TN15 0QD",public247,"Public, 24/7",24/7 Access,False,,0.295412,51.258076
+6BC5F44E-4D29-4657-99AC-AF2601167F4F,Public Telephone 15m From 4 Council Cottage On Carter's Hill,"Public Telephone 15m From 4 Council Cottage On Carter's Hill, Carters Hill, Underriver, TN15 0SB",public247,"Public, 24/7",24/7 Access,False,,0.228867,51.24639
+55C0B1D6-053A-4B09-BE18-B2D300C77578,Crouch,"Clakkers House, Basted Lane, Sevenoaks, TN15 8PY",public247,"Public, 24/7",24/7 Access,False,,0.311018,51.2763
+6D633614-AEF4-46B3-B42F-B1E600E1B5F8,The Old Saw Mill,"The Old Saw Mill, Sevenoaks, TN15 8QJ",public247,"Public, 24/7",24/7 Access,False,,0.32953,51.27983
+9733686E-7AC4-4EBD-AB9E-B117008B1716,Paynetts Farm Land & Buildings,"Paynetts Farm Land & Buildings, Cranbrook Road, Cranbrook, TN17 1DY",public247,"Public, 24/7",24/7 Access,False,,0.47348,51.11267
+EF77267C-5067-4220-829B-B2FB00ACDB06,Goudhurst & Kilndown C Of E Primary School,"Goudhurst & Kilndown C Of E Primary School, Beaman Close, Cranbrook, TN17 1DZ",public247,"Public, 24/7",24/7 Access,False,,0.467894,51.1136
+E40442A4-E9EA-4A4D-9BAB-B28E0111E16D,Pengelly Perfomance Centre,"Bethany School, Jarvis Lane, Cranbrook, TN17 1LB",public247,"Public, 24/7",24/7 Access,False,,0.484884,51.135541
+E41718FB-9050-4292-9C2D-B45C0098CAB9,Bethany School,"Bethany School, Jarvis Lane, Cranbrook, TN17 1LB",public247,"Public, 24/7",24/7 Access,False,,0.483852,51.136
+50C0E775-816C-49D7-B423-B19B00B9507B,Sissinghurst Church Of England Primary School,"Sissinghurst Church Of England Primary School, Common Road, Cranbrook, TN17 2BH",publicvar,"Public, limited hours",Varied Access,False,,0.555249,51.112
+F1C99CFE-35A8-4227-BEE6-B0F500BA37C1,Colliers Green C Of E Primary School,"Colliers Green C Of E Primary School, Colliers Green Road, Cranbrook, TN17 2LR",public247,"Public, 24/7",24/7 Access,False,,0.511483,51.1212
+42F88B00-1DD0-4D87-B06F-B22600C9DEFE,Chapman Way,"Chapman Way, Southborough, Royal Tunbridge Wells, TN2 3EF",restricted,Restricted access,Varied Access,True,TN2,0.277636,51.1518
+90829160-B6E0-4D5C-ACA4-B1F500D1875B,Mf Communications Ltd,"30 Chapman Way, Royal Tunbridge Wells, TN2 3EF",restricted,Restricted access,Varied Access,True,TN2,0.27751,51.15252
+A4412CCE-79F7-4276-B34B-B21A00BD41FB,Muffet Gears,"S H Muffett Ltd Ashdown House, Lamberts Road, Royal Tunbridge Wells, TN2 3EH",publicvar,"Public, limited hours",Varied Access,True,TN2,0.284553,51.153
+2584E294-620E-428C-A877-B02800995AFC,Adler And Allan,"Unit 3, Buckingham House, Longfield Road, Tunbridge Wells, TN2 3EY",publicvar,"Public, limited hours",Varied Access,True,TN2,0.286919,51.154728
+23AB153D-7A85-4909-85AF-AE4000948654,Covers,"Longfield Road, Tunbridge Wells, Royal Tunbridge Wells, TN2 3EY",publicvar,"Public, limited hours",Varied Access,True,TN2,0.286653,51.15458
+C8B842D9-3584-41B5-8627-AEAD00AC5EB4,Underground Gym,"Unit 3, Longfield Road, Royal Tunbridge Wells, TN2 3EY",publicvar,"Public, limited hours",Varied Access,True,TN2,0.286919,51.154728
+FC957504-DB15-4735-9B0D-B40900BE3971,Storage King,"Easistore Self Storage Ltd, Longfield Road, Royal Tunbridge Wells, TN2 3EY",restricted,Restricted access,Varied Access,True,TN2,0.285827,51.152738
+AF9EBCF0-B0A5-4C84-B0ED-AE2100B7CBE5,Easistore Self Storage Ltd,"Easistore Self Storage Ltd, Longfield Road, Royal Tunbridge Wells, TN2 3EY",restricted,Restricted access,Varied Access,True,TN2,0.28594,51.152597
+74FA7548-6FAB-4B5E-9A00-AE7F0095400B,The Medical Centre,"The Medical Centre, Greggs Wood Road, Royal Tunbridge Wells, TN2 3JL",restricted,Restricted access,Varied Access,True,TN2,0.286734,51.14321
+DD737633-B9ED-41DD-A604-B39400DCCC23,St James Primary School,"St James Junior School, Sandrock Road, Royal Tunbridge Wells, TN2 3PR",restricted,Restricted access,Varied Access,True,TN2,0.274529,51.134635
+696E5F2A-ECE8-48FC-A9D2-B1E200FAFDBA,Beechwood School,"12 Pembury Road, Royal Tunbridge Wells, TN2 3QD",public247,"Public, 24/7",24/7 Access,True,TN2,0.286874,51.1359
+6AE280FA-671A-4A57-9A52-B3E200CC776A,Skinners Temple Grove,"Temple Grove Academy, Friars Way, Royal Tunbridge Wells, TN2 3UA",publicvar,"Public, limited hours",Varied Access,True,TN2,0.28453,51.1443
+7031C40D-A78E-4CFC-B12A-B2A3011045DD,Marks & Spencer Fountains Rp Tunbridge Wells,"Unit 4 Royal Spa Rp, Royal Tunbridge Wells, TN2 3UY",restricted,Restricted access,Varied Access,True,TN2,0.289747,51.156
+5090EDC0-CADC-4EEB-BA1D-AE4400A9A90D,Motorline Volkswagen,"Motorline Volkswagen, Dowding Way, Royal Tunbridge Wells, TN2 3UY",restricted,Restricted access,Varied Access,True,TN2,0.283608,51.154621
+12389801-2C5F-4775-A84B-AE2200A75E0D,Marshall Toyota,"Dowding Way, Royal Tunbridge Wells, TN2 3UY",publicvar,"Public, limited hours",Varied Access,True,TN2,0.284334,51.156559
+8F8FBC0F-DDDA-4C32-8361-B27600BD7276,Wickes Tunbridge Wells,"Longfield Road Trade Park, Royal Tunbridge Wells, TN2 3XQ",publicvar,"Public, limited hours",Varied Access,True,TN2,0.289867,51.1553
+FCE45349-9843-47DF-B68C-B46C00ED78B6,Mclaren Site Office,"Kingstanding Park, Longfield Road, Royal Tunbridge Wells, TN2 3YD",publicvar,"Public, limited hours",Varied Access,True,TN2,0.29333,51.1592
+E735BCB8-266B-46E9-89A6-AEB400CAA1BA,King William Iv,"King William Iv, 87 Hastings Road, Tunbridge Wells, TN2 4JS",public247,"Public, 24/7",24/7 Access,True,TN2,0.328923,51.140894
+1FD77949-EE58-4F27-A1A0-AE7D006A8CBF,Waterfield House Surgery,"Doctors Surgery Waterfield House, 186 Henwood Green Road, Tunbridge Wells, TN2 4LR",restricted,Restricted access,Varied Access,True,TN2,0.329245,51.148694
+A3543DCB-9DB3-43A3-9956-B24B00CD741D,Under Ground Car Park,"Public Car Park A ,Maidstone & Tunbridge Wells Nhs Trust, The Tunbridge Wells Hospital, Tonb, Tonbridge Road, Tunbridge Wells, TN2 4QJ",public247,"Public, 24/7",24/7 Access,True,TN2,0.307477,51.147721
+D7BB9DDD-CE63-47FA-A6EF-B24B00D04F07,Hospital Front Entrance,"The Tunbridge Wells Hospital, Tonbridge Road, Tunbridge Wells, TN2 4QJ",public247,"Public, 24/7",24/7 Access,True,TN2,0.307089,51.148427
+EF73A684-0956-4E65-AB11-B2E500810E9D,Undergraduate Accomadation,"Helipad The Tunbirdge Wells Hospital, Tonbridge Road, Tunbridge Wells, TN2 4QJ",public247,"Public, 24/7",24/7 Access,True,TN2,0.308003,51.150386
+589292ED-CEC1-4F2B-84ED-B24B00CAE26D,Finger 2 Service Road Outside Eme,"Tunbridge Wells Hospital, Main Service Road., Tonbridge Road, Tunbridge Wells, TN2 4QJ",public247,"Public, 24/7",24/7 Access,True,TN2,0.309344,51.148935
+85755A2F-D572-4ED7-A21C-AFF100BC61F5,Halliwell Care Home,"Halliwell Nursing Home, Kingswood Road, Royal Tunbridge Wells, TN2 4UN",public247,"Public, 24/7",24/7 Access,True,TN2,0.278801,51.13135
+B871DAE6-4634-4CEE-B885-B09900B7BEE0,Claremont Primary School,"Claremont County Primary School, Banner Farm Road, Royal Tunbridge Wells, TN2 5EB",restricted,Restricted access,Varied Access,True,TN2,0.270196,51.126976
+B1607596-EE13-4261-9EEF-B233015142B6,One Warwick Park,"1 Warwick Park, Tunbridge Wells, Royal Tunbridge Wells, TN2 5TA",restricted,Restricted access,24/7 Access,True,TN2,0.260709,51.1256
+8E0DE496-846A-4E1B-A8E3-AF17007774DB,Imperial Pharmacy,"4 The Pantiles, Royal Tunbridge Wells, TN2 5TN",publicvar,"Public, limited hours",Varied Access,True,TN2,0.257659,51.126293
+00995147-21CF-4EE7-83CC-B08C01019668,Claas Mans Kent,"Claas Manns Ltd, Barradale Farm Maidstone Road, Maidstone, TN27 9JP",publicvar,"Public, limited hours",Varied Access,False,,0.606808,51.164601
+734D1763-A778-46FF-99E1-AF9500C2DD4A,St Peter & St Paul Church Headcorn,"St Peter And St Pauls Church, Church Walk, Headcorn, TN27 9NR",publicvar,"Public, limited hours",Varied Access,False,,0.618784,51.167744
+F916BA1C-9514-4CAA-A82E-B1D200B8E6BA,Headcorn Village Hall,"Headcorn Village Hall, Church Walk, Headcorn, TN27 9NR",public247,"Public, 24/7",24/7 Access,False,,0.619339,51.1666
+8FB4D819-99B6-407C-BE45-AF5E010A3F29,Headcorn Fire Station,"Station Road, Headcorn, Headcorn, TN27 9SA",public247,"Public, 24/7",24/7 Access,False,,0.625671,51.16682
+C7807ADE-178C-4D97-9A26-AEE800CB7620,Headcorn Station,"Headcorn Station, Station Road Headcorn, Headcorn, TN27 9SD",public247,"Public, 24/7",24/7 Access,False,,0.627206,51.165765
+98AA3022-E879-4BC7-94DB-AE9100947E3C,Holmewood House School,"Holmewood House School, Barrow Lane, Tunbridge Wells, TN3 0EB",restricted,Restricted access,24/7 Access,True,TN3,0.21666,51.125835
+47025DDC-E7E9-4D5F-964A-B3FD00D5903D,Ashdene House,"Ashdene House, Langton Road, Tunbridge Wells, TN3 0HL",public247,"Public, 24/7",24/7 Access,True,TN3,0.21046,51.131
+55C53A59-E20D-4FAF-96D9-B04200E2AFCA,Speldhurst Primary School,"Speldhurst Primary School, Langton Road, Tunbridge Wells, TN3 0NP",publicvar,"Public, limited hours",Varied Access,True,TN3,0.219218,51.15
+DB5779C8-005D-44F7-A016-B3FD00D57DCA,Speldhurst V Hall,"Village Hall, St Marys Lane, Tunbridge Wells, TN3 0PR",public247,"Public, 24/7",24/7 Access,True,TN3,0.216613,51.1532
+E1A9F183-B0C6-42EC-9717-B03D00EAAB70,Fordcombe C Of E Primary School,"Fordcombe C Of E Primary School, The Green, Fordcombe, TN3 0RY",public247,"Public, 24/7",24/7 Access,True,TN3,0.180376,51.141365
+452324A8-A1F6-4A14-940B-B22600D19B7F,Mansion House,"David Salomons Estate, Broomhill Road, Royal Tunbridge Wells, TN3 0TF",restricted,Restricted access,24/7 Access,True,TN3,0.246204,51.1522
+5B75F209-1745-4062-9CFD-AEA60135D485,Isaacs Farm Livery,"Isaacs Farm Livery, Franks Hollow Road, Tunbridge Wells, TN3 0UB",public247,"Public, 24/7",24/7 Access,True,TN3,0.238895,51.162995
+587DE2AA-A141-45E4-BCB9-AEC800FA4251,Bewl Water (Elite Leisure),"Bewl Water Boat House (Water Sports), Bewlbridge Lane, Wadhurst, TN3 8JH",public247,"Public, 24/7",24/7 Access,False,,0.38866,51.07688
+9F224B0F-C6FE-4278-8B3A-AE9800CC52F9,Southern Water,"Overflow Tower, Bewlbridge Lane, Ticehurst, TN3 8JH",restricted,Restricted access,Varied Access,True,TN3,0.39779,51.07874
+FF922627-7E3D-4EB9-A5AB-ADE200CA9C74,Bewl Water Outdoor Centre,"Bewl Water Outdoor Centre, Bewlbridge Lane, Wadhurst, TN3 8JH",public247,"Public, 24/7",24/7 Access,False,,0.38661,51.07623
+E04EB3FF-64B8-44E0-A5C0-B23300C134A8,Bewl Water,"Bewl Water, Bewlbridge Lane, Wadhurst, TN3 8JH",restricted,Restricted access,24/7 Access,False,,0.388684,51.0769
+8D5D6E48-C325-46F1-A202-B23300C13AF2,Bewl Water,"Bewl Water, Bewlbridge Lane, Wadhurst, TN3 8JH",restricted,Restricted access,Varied Access,False,,0.388684,51.0769
+C59CD67C-2832-4813-A05F-AF8C011B0AAA,The National Trust,"The Estate Office Scotney Castle, Hastings Road, Tunbridge Wells, TN3 8JN",restricted,Restricted access,Varied Access,True,TN3,0.40721,51.09326
+C0164254-3711-4619-B73B-AEF200983D7F,Se Trains Ltd,"Frant Station, Bayham Road, Frant, TN3 9BJ",public247,"Public, 24/7",24/7 Access,True,TN3,0.294571,51.104008
+4A3A86FD-CC48-42DE-8FD5-B41D00A4F6A7,Knowle Grange Health Spa,"Knowle Grange Health Spa, Wadhurst Road, Tunbridge Wells, TN3 9EJ",public247,"Public, 24/7",24/7 Access,True,TN3,0.284236,51.085409
+591D8E0D-1323-412A-8903-B23A00EF07F0,Ipt Fitness,"Unit 6a Sham Farm, Sham Farm Road, Eridge Green, TN3 9JA",public247,"Public, 24/7",24/7 Access,True,TN3,0.229957,51.0828
+63D1777E-DEA8-41AD-901B-B1F4013E2E8F,Deer Park Cafe,"Sham Farm Road, Eridge Green, TN3 9JB",public247,"Public, 24/7",24/7 Access,True,TN3,0.22421,51.08406
+9B7FB47B-6F98-4FCB-8D34-B3EA01542E4C,Adamswell Scout Campsite,"Adamswell Campsite, Broom Lane, Frant, TN3 9JL",restricted,Restricted access,24/7 Access,True,TN3,0.211092,51.120561
+6A291BAC-9D26-4EB1-A52B-AF510120AB32,Brunning & Price Ltd,"The Nevill Crest And Gun, Eridge Road, Eridge Green, TN3 9JR",public247,"Public, 24/7",24/7 Access,True,TN3,0.223975,51.099904
+C8F0E03F-664A-43DE-AAA3-B3DB00E1CB61,Groombridge Tennis Club,"Groombridge Tennis Club, Corseley Road, Groombridge, TN3 9PP",public247,"Public, 24/7",24/7 Access,True,TN3,0.183867,51.106
+961F85C6-C26F-4AE0-9ACD-B3FD00D58569,Crown Inn,"The Crown Inn, The Green, Tunbridge Wells, TN3 9QH",public247,"Public, 24/7",24/7 Access,True,TN3,0.185394,51.1183
+541C5AE9-CB5C-46FE-A592-AEF300B2C6A0,Groombridge Village Hall,"King Edward Vii Institute, Station Road, Groombridge, TN3 9QX",public247,"Public, 24/7",24/7 Access,True,TN3,0.186065,51.114701
+87C8FB34-6259-440C-A4BF-B3E00095D34C,Groombridge St Thomas School,"St Thomas C Of E Primary School, Corseley Road, Groombridge, TN3 9SF",publicvar,"Public, limited hours",Varied Access,True,TN3,0.185878,51.1101
+10B1E176-D43B-4C1E-B31E-B3FD00D58C05,Ashurst Sports Field,"Railway Bridge, Ashurst Hill, Tunbridge Wells, TN3 9TJ",public247,"Public, 24/7",24/7 Access,True,TN3,0.151716,51.1304
+E955936C-9B37-4639-B798-B27F012EC062,Tali,"Tali, Ironchurch Lane, Blackham, TN3 9TS",public247,"Public, 24/7",24/7 Access,True,TN3,0.14277,51.135259
+9B8AF5ED-2F77-4AF6-A1E5-AE6F00A5BB32,Blackham Village Hall Management Committee,"Blackham Village Hall, Sussex Lane, Blackham, TN3 9UD",public247,"Public, 24/7",24/7 Access,True,TN3,0.140922,51.140984
+AA51F75E-3E4F-4226-8BD7-AE91008D6EDB,The Skinners' School - Southfields Park,"The Pavilion Southfields Park, Chestnut Avenue, Tunbridge Wells, TN4 0BU",publicvar,"Public, limited hours",Varied Access,True,TN4,0.264353,51.152738
+1FE00E60-F6E5-4EFA-91B6-AFFE0098CB7A,Two Bridges School,"Two Bridges School, Charles Street, Tunbridge Wells, TN4 0DS",restricted,Restricted access,Varied Access,True,TN4,0.258867,51.154285
+2153D1F4-55DA-448B-AFC0-B49500DEA1DA,New Life Church,"New Life Church Centre, Speldhurst Road, Tunbridge Wells, TN4 0JA",public247,"Public, 24/7",24/7 Access,True,TN4,0.253485,51.153467
+1C59EDB9-8589-42B2-A872-B07B00AECB29,The Wells Physio,"The Wells Physio, 139 London Road, Tunbridge Wells, TN4 0NA",restricted,Restricted access,Varied Access,True,TN4,0.260197,51.156616
+6CFB5DD4-3E06-43C9-8005-B0CE00901E29,The Wells Physiotherapy And Sports Clinic,"The Wells Physio & Sport Clinic, 139 London Road, Tunbridge Wells, TN4 0NA",publicvar,"Public, limited hours",Varied Access,True,TN4,0.260714,51.1563
+3DF9518C-01BE-4D9D-9FB4-B20B00AADE6F,Southborough Town Council,"Site Of, 137 London Road, Tunbridge Wells, TN4 0NA",public247,"Public, 24/7",24/7 Access,True,TN4,0.260346,51.1563
+31386076-07C9-4A95-B098-B24900C77E06,Southborough Town Council,"The Civic Centre, 137 London Road, Tunbridge Wells, TN4 0NA",public247,"Public, 24/7",24/7 Access,True,TN4,0.260346,51.1563
+60D63984-70CC-4B05-9232-AFEB00E112CE,Tesco,"79 London Road, Southborough, Tunbridge Wells, TN4 0PX",publicvar,"Public, limited hours",Varied Access,True,TN4,0.257522,51.159546
+A10D3975-B8C7-4CDB-BC9E-AE9B00CA6E55,Hand & Sceptre,"Hand & Sceptre, 21 London Road, Tunbridge Wells, TN4 0RJ",public247,"Public, 24/7",24/7 Access,True,TN4,0.253806,51.16383
+C9302527-C3B1-4507-8FC9-AD7C009C9109,Brockbourne House,"Brockbourne House, 77 Mount Ephraim, Royal Tunbridge Wells, TN4 8BS",restricted,Restricted access,Varied Access,True,TN4,0.254549,51.13229
+B642A052-7467-4250-9C11-AF5700CD330A,Apartment 2 Bredbury House,"Apartment 2 Bredbury House, 77 Mount Ephraim, Royal Tunbridge Wells, TN4 8BS",restricted,Restricted access,Varied Access,True,TN4,0.254907,51.1323
+243BC604-E0CC-44B6-8E42-AE9000D194C0,The Wells Free School,"The Wells Free School, King Charles Square, Royal Tunbridge Wells, TN4 8FA",public247,"Public, 24/7",24/7 Access,True,TN4,0.260366,51.136206
+02E820CD-C8DF-4A78-8B3B-B26C00DAE457,St Marks C Of E Primary School,"St Marks C Of E Primary School, Ramslye Road, Royal Tunbridge Wells, TN4 8LN",restricted,Restricted access,Varied Access,True,TN4,0.241651,51.1204
+C8E4F838-323C-485E-BB16-ADE000F506E6,Sunnyside Community Hall,"Sunnyside Hall, Rusthall Road, Tunbridge Wells, TN4 8RA",public247,"Public, 24/7",24/7 Access,True,TN4,0.233894,51.134672
+EC892091-C798-4002-998F-B4C700B810C5,Back Garden Wall,"24 Ffremlin Close, Rusthall, Tunbridge Wells, TN4 8SF",public247,"Public, 24/7",24/7 Access,True,TN4,0.226243,51.1367
+2D1D019E-86FF-46B9-A96A-B2F9008EFA0F,Southwood Park,"Rusthall Pavilion, Southwood Road, Tunbridge Wells, TN4 8UU",public247,"Public, 24/7",24/7 Access,True,TN4,0.226722,51.140492
+5AA3E09C-CBBE-4A01-A2F5-B26100FCC58D,Southwood Road Allotments,"Southwood Road, Tunbridge Wells, TN4 8UX",restricted,Restricted access,Varied Access,True,TN4,0.227625,51.1402
+BD32A700-5762-4FBF-A284-B3EE01049581,St Matthew's Primary School,"St Matthews Primary School, Powder Mill Lane, Tunbridge Wells, TN4 9DY",restricted,Restricted access,Varied Access,True,TN4,0.271236,51.1534
+313B3C23-40E6-45E7-A776-B43A00CED2F5,St Johns Primary School,"St Johns Primary School, Cunningham Road, Royal Tunbridge Wells, TN4 9EW",restricted,Restricted access,Varied Access,True,TN4,0.267979,51.148
+69816FC9-EA2D-40DC-B463-B02900E314C1,St John's Cep School Community Entrance,"St John's Cep School, Cunningham Road, Tunbridge Wells, Kent, Tn4 9ew, Cunningham Road, Royal Tunbridge Wells, TN4 9EW",restricted,Restricted access,Varied Access,True,TN4,0.2683,51.14829
+F9A7A366-39F1-4B32-9E6A-B3FC0122E7D7,St George's Childcare,"7 Chilston Road, Royal Tunbridge Wells, TN4 9LP",public247,"Public, 24/7",24/7 Access,True,TN4,0.262901,51.1409
+86082910-0C45-4A30-ABF0-B15500A51C9E,Crossways Community,"5 Culverden Park Road, Royal Tunbridge Wells, TN4 9QX",public247,"Public, 24/7",24/7 Access,True,TN4,0.25868,51.13899
+B9967452-299D-4B17-B193-B15500A64147,8 Culverden Park Road,"8 Culverden Park Road, Royal Tunbridge Wells, TN4 9QX",public247,"Public, 24/7",24/7 Access,True,TN4,0.25862,51.13931
+8A512BE6-C927-4D58-AFB0-AE7700E472C6,Bennett Memorial Diocesan School,"Bennett Memorial Diocesan School, Culverden Down, Royal Tunbridge Wells, TN4 9SH",restricted,Restricted access,Varied Access,True,TN4,0.247948,51.142676
+DA08165C-01DA-47D9-9E86-B3E100ECD1AC,Tw Main Site,"Tunbridge Wells Boys Grammar School, St Johns Road, Royal Tunbridge Wells, TN4 9XB",restricted,Restricted access,Varied Access,True,TN4,0.261115,51.1509
+6327D2A5-56A4-4A4C-A80C-AE7F00B5CDDE,St Gregorys Catholic School,"St Gregorys Catholic School, Reynolds Lane, Royal Tunbridge Wells, TN4 9XL",publicvar,"Public, limited hours",Varied Access,True,TN4,0.259475,51.151223
+ADB50A08-DCFF-45EC-8AC5-B02700A68CDC,St Gregorys Roman Catholic Comprehensive School,"St Gregorys Roman Catholic Comprehensive School, Reynolds Lane, Royal Tunbridge Wells, TN4 9XL",restricted,Restricted access,Varied Access,True,TN4,0.259475,51.151223
+8852D18E-0F50-4242-9570-B02700AEC757,St Gregorys Roman Catholic Comprehensive School,"St Gregorys Roman Catholic Comprehensive School, Reynolds Lane, Royal Tunbridge Wells, TN4 9XL",restricted,Restricted access,Varied Access,True,TN4,0.259475,51.151223
+B5DEA89E-A66F-42B1-8334-B034010646BC,Field House Dental Practice,"Field House Dental Practice, High Street, Wadhurst, TN5 6AQ",restricted,Restricted access,Varied Access,False,,0.340483,51.061812
+F7B6A103-BAE0-46B4-A2F3-B19500CF36B4,Wadhurst Telephone Box,"Telephone Box, Station Road, Durgates, Wadhurst, TN5 6DE",public247,"Public, 24/7",24/7 Access,False,,0.329853,51.065574
+2A9CD64F-435C-4B8A-A85E-B41000D314F8,Coulsey Wood Bus Shelter,"Cousley Wood Bus Shelter, Cousley Wood Road, Wadhurst, TN5 6EP",public247,"Public, 24/7",24/7 Access,False,,0.354643,51.076024
+33804266-C116-4EE7-98B4-B45800E0FFB0,Bewl Bridge Rowing Club,"Bewl Bank, Bewlbridge Lane, Wadhurst, TN5 6HJ",public247,"Public, 24/7",24/7 Access,False,,0.385933,51.076369
+FA4603C4-961C-422A-8A2C-B3C300BE6DD6,Best Beech Telephone Kiosk,"Telephone Box, Fairglen Road, Wadhurst, TN5 6JJ",public247,"Public, 24/7",24/7 Access,False,,0.303435,51.0587
+F55EE7C4-3759-4026-BCDD-B2B20111AED6,Petrogas Group Uk Ltd,"Burnt Ash Garage, Station Road, Wadhurst, TN5 6RP",public247,"Public, 24/7",24/7 Access,False,,0.327637,51.0668
+D0452B19-04B9-4DD3-9242-B401009D1FA5,The Bull Inn,"The Bull, Cross Lane, Ticehurst, TN5 7HH",public247,"Public, 24/7",24/7 Access,False,,0.402828,51.0545
+A692E921-727F-4412-BD39-B32800F7C8BE,Crowborough Hospital,"Crowborough War Memorial Hospital, South View Road, Crowborough, TN6 1AB",public247,"Public, 24/7",24/7 Access,False,,0.157719,51.051689
+5DB2C5FF-7503-4940-B1FB-AE6E00D8ED95,Crowborough - Fire Station,"Beacon Road, Crowborough, TN6 1AF",public247,"Public, 24/7",24/7 Access,False,,0.160898,51.060345
+C40396C2-C23C-48C7-8B77-B48B01052BDE,Community Church - The Oasis,"Community Church - The Oasis, Beacon Road, Crowborough, TN6 1AS",public247,"Public, 24/7",24/7 Access,False,,0.160396,51.060524
+942E7CFB-1260-4A53-8581-AE6E00D8E8CE,Crowborough - Police Station,"The Broadway, Crowborough Hill, Crowborough, TN6 1DA",public247,"Public, 24/7",24/7 Access,False,,0.163037,51.058768
+A6AC5F0A-54AC-4046-A5A7-AFB600D1881A,Crowborough Town Council,"Crowborough Town Council Pine Grove Enterprise Centre, Pine Grove, Crowborough, TN6 1DH",public247,"Public, 24/7",24/7 Access,False,,0.158863,51.058531
+9A290A51-B1FA-4E48-847F-AE6E00D89417,Crowborough - All Saints Church,"Chapel Green, Church Road, Crowborough, TN6 1ED",restricted,Restricted access,Varied Access,False,,0.161924,51.055101
+3603468B-FD5C-4ABE-A8B3-AE6F0084CC34,Crowborough - All Saints Halls,"Chapel Green, Church Road, Crowborough, TN6 1ED",public247,"Public, 24/7",24/7 Access,False,,0.161924,51.055101
+316267E1-0BF5-448C-9BA3-AE6E00D899A2,Crowborough - Community Centre,"Pine Grove, Crowborough, TN6 1FE",public247,"Public, 24/7",24/7 Access,False,,0.15847,51.058667
+150EF942-521A-4753-8952-AE6E00D8B16F,Crowborough - St. John's Church,"St Johns Road, Crowborough, TN6 1RZ",public247,"Public, 24/7",24/7 Access,False,,0.144602,51.065198
+165A7D7C-ECAF-4339-A7A2-B17500F263CA,Land Adjoining School Lane,"Land Adjoining School Lane, School Lane, Crowborough, TN6 1SB",public247,"Public, 24/7",24/7 Access,False,,0.14541,51.06446
+C67F41DA-4366-46FB-8BE1-B3E500E8DA17,St John's Primary School,"St Johns Church Of England School, School Lane, Crowborough, TN6 1SD",publicvar,"Public, limited hours",Varied Access,False,,0.145789,51.065651
+D1C3E6C3-014A-4D4D-94BF-AE6E00D8F71E,Crowborough - Coopers Wood,"25 Coopers Wood, Crowborough, TN6 1SW",public247,"Public, 24/7",24/7 Access,False,,0.152493,51.065527
+FD7E59CB-3585-418E-91A4-B15500FB2795,Crowborough Gentle Dental,"Crowborough Gentle Dental, Windsor Road, Jarvis Brook, TN6 2JB",restricted,Restricted access,Varied Access,False,,0.18639,51.04852
+26DB3225-19FF-48DC-A747-B11F0124999E,The Wheatsheaf,"The Wheatsheaf, Mount Pleasant, Crowborough, TN6 2NF",public247,"Public, 24/7",24/7 Access,False,,0.181806,51.0433
+FE339000-6932-4D45-B339-B11800ABC980,Ashdown Primary School,"Herne Junior School, Herne Road, Crowborough, TN6 2NT",restricted,Restricted access,Varied Access,False,,0.164606,51.0459
+AD5FFA41-5F33-42C0-B70E-B4400149613F,Pellings Rise,"85 Millbrook Road, Crowborough, TN6 2SB",public247,"Public, 24/7",24/7 Access,False,,0.174447,51.06058
+3EDFA939-2563-44CF-B780-AE7E00B8D794,Sir Henry Fermor School,"Sir Henry Fermor School, Crowborough Hill, Crowborough, TN6 2SD",public247,"Public, 24/7",24/7 Access,False,,0.169456,51.054741
+AE39412C-C7F3-46D0-B855-B08900B613BE,Sir Henry Fermor C E Primary School,"Sir Henry Fermor C E Primary School, Crowborough Hill, Crowborough, TN6 2SD",public247,"Public, 24/7",24/7 Access,False,,0.16947,51.054727
+B72A7171-6428-4462-8D4B-AE6E00D8B545,Sir Henry Fermor School,"Crowborough Hill, Crowborough, TN6 2SD",public247,"Public, 24/7",24/7 Access,False,,0.17264,51.053248
+FC19771B-6242-4193-91E4-AE6E00D8E514,Crowborough - Miniature Railway,"Goldsmiths Leisure Centre, Eridge Road, Crowborough, TN6 2TN",public247,"Public, 24/7",24/7 Access,False,,0.168855,51.064763
+783BA0F4-CAC3-4EA0-9CC3-B2E000E80873,Crowborough Campsite,"The Caravan And Camping Club Goldsmith Leisure Centre, Eridge Road, Crowborough, TN6 2TN",publicvar,"Public, limited hours",Varied Access,False,,0.169296,51.064078
+A95EA68A-FB08-4484-BF0F-B12900D717F2,Constitutional Club,"Constitutional Club, London Road, Crowborough, TN6 2TP",publicvar,"Public, limited hours",Varied Access,False,,0.161289,51.0607
+3606608D-EDB0-407F-900D-AE6E00D8F324,Crowborough - Fieldbuss Newsagents,"5 London Road, Crowborough, TN6 2TT",public247,"Public, 24/7",24/7 Access,False,,0.161236,51.061463
+FEFD6497-782C-4664-A275-B133013066F2,Pilmer Road Allotments,"Wealden Mencap Growmore Project, Pilmer Road Allotments, Crowborough, TN6 2UG",public247,"Public, 24/7",24/7 Access,False,,0.16669,51.06498
+A42EA03D-2518-4F55-9098-AE4800C9192A,Tesco,"Tesco, Sybron Way, Jarvis Brook, TN6 3DZ",publicvar,"Public, limited hours",Varied Access,False,,0.195176,51.046703
+BF0D0086-B3DC-4FFA-9AF4-AE6E00D8E19E,Boars Head Inn,"Boars Head Road, Boars Head, Boars Head, TN6 3GR",public247,"Public, 24/7",24/7 Access,False,,0.188198,51.071668
+9CDB077D-9846-4AC5-A176-AE6E00D8CB40,Rotherfield - Cuckoo Line Stores,"Yewtree Lane, Rotherfield, Rotherfield, TN6 3JA",public247,"Public, 24/7",24/7 Access,False,,0.234258,51.048857
+E80B5660-C3F6-4193-BF2F-AE6E00D8BE8F,Rotherfield - Court Meadow Close,"8 Court Meadow Close, Rotherfield, Rotherfield, TN6 3LW",public247,"Public, 24/7",24/7 Access,False,,0.21701,51.043528
+827871FE-308D-489B-A271-AEB8012E929E,St. Mark Church,"St. Mark Church, Tunbridge Wells Road, Mark Cross, TN6 3PJ",public247,"Public, 24/7",24/7 Access,False,,0.2574,51.058926
+CC8E71D2-0414-4F00-8A79-B08300F5759A,Mark Cross C Of E School,"Mark Cross C Of E School, Tunbridge Wells Road, Mark Cross, TN6 3PJ",restricted,Restricted access,Varied Access,False,,0.2574,51.058926
+BC4B9BB8-BA66-40C9-A0F2-B48700E57840,St Mary The Virgin School,"St Mary The Virgin School, High Street, Hartfield, TN7 4AA",restricted,Restricted access,Varied Access,False,,0.112298,51.102356
+BE82D01F-D889-498F-9533-B038010FA35D,St Michaels Cp School,"St Michaels Cp School, Station Road, Withyham, TN7 4BP",restricted,Restricted access,Varied Access,False,,0.139148,51.10495
+44E94FB1-8E84-43E0-A207-AE80009D02C2,Markbeech Village Hall,"Markbeech Village Hall, Cowden Pound Road, Markbeech, Mark Beech, TN8 5NR",public247,"Public, 24/7",24/7 Access,False,,0.100339,51.163596
+79F3708F-B75F-4DDD-9525-AFEB00C90EDC,Bt Telephone Box 50m North Of Castle Inn,"Bt Telephone Box 50m North Of Castle Inn, The Village, Chiddingstone, TN8 7AH",public247,"Public, 24/7",24/7 Access,False,,0.145543,51.186468
+05D51BF0-ED20-45CE-9916-B3EA00A5EB7E,Bough Beech Sailing Club,"Bough Beech Sailing Club, Winkhurst Green Road, Bough Beech, TN8 7AN",restricted,Restricted access,Varied Access,False,,0.142422,51.2087
+33D1E013-2B87-435D-B165-B3EA00A6CDFC,Bough Beech Sailing Club,"Bough Beech Sailing Club, Winkhurst Green Road, Bough Beech, TN8 7AN",public247,"Public, 24/7",24/7 Access,False,,0.142422,51.2087
+A0226656-A77B-4585-A03F-B02F00DDB8D3,Bore Place,"Bore Place, Bore Place Road, Chiddingstone, TN8 7AR",public247,"Public, 24/7",24/7 Access,False,,0.15425,51.21971
+E37BE191-1E7A-4B34-BE25-AFEB00CB1BA6,The Rock Inn,"The Rock Inn, Hoath Corner, Chiddingstone Hoath, TN8 7BS",public247,"Public, 24/7",24/7 Access,False,,0.140253,51.167783
+0D9B2EDB-D72F-486A-9966-AEAA016BCEDF,Saxbys,"Saxbys, Moat Lane, Cowden, TN8 7DP",public247,"Public, 24/7",24/7 Access,False,,0.1079,51.15159
+EF8BF26E-F685-4A3B-BD5D-AE80009CF61D,Cowden Village Hall,"Cowden Village Hall, Chantlers Mead, Cowden, Cowden, TN8 7HU",public247,"Public, 24/7",24/7 Access,False,,0.092631,51.144965
+ABEA2838-45AF-4644-BD9F-B11000CA5B11,Abbey Funeral Services,"173 High Street, Tonbridge, TN9 1BX",restricted,Restricted access,Varied Access,True,TN9,0.275863,51.1983
+F8365E0E-EDE2-44D0-97BF-AE7F00C1103B,Church Of St Peter And St Paul,"Church Of St Peter And St Paul, Church Lane, Tonbridge, TN9 1DA",public247,"Public, 24/7",24/7 Access,True,TN9,0.276796,51.197743
+9B58704A-D373-4267-90B6-AE8900D7EC93,Tonbridge And Malling Leisure Trust,"Tonbridge Pool, The Slade, Tonbridge, TN9 1HR",restricted,Restricted access,Varied Access,True,TN9,0.271703,51.196367
+9201AB1D-074B-454D-A2B8-B25300BF2927,Slade County Primary School,"Slade County Primary School, The Slade, Tonbridge, TN9 1HR",restricted,Restricted access,Varied Access,True,TN9,0.272233,51.198218
+4EBB03AE-11A6-49C4-8E67-B29E00F01ACF,Marks & Spencer Tonbridge Sf,"Unit 2a Tonbridge Retail Park, Tonbridge, TN9 1PN",restricted,Restricted access,Varied Access,True,TN9,0.282591,51.1968
+DCFD497A-1E2D-484A-895F-B15600F23455,Waitrose Tonbridge,"Sovereign Way, Tonbridge, TN9 1RG",publicvar,"Public, limited hours",Varied Access,True,TN9,0.275789,51.194174
+668EB671-44E8-4E78-ABE1-AE8500A0E7FD,Tonbridge And Malling Leisure Trust,"The Angel Centre, Angel Lane, Tonbridge, TN9 1SF",publicvar,"Public, limited hours",Varied Access,True,TN9,0.275513,51.19292
+A5AEC96F-F90F-4BE2-A7A4-AE160094B947,V R Digital Ltd,"199 Vale Road, Tonbridge, TN9 1SU",publicvar,"Public, limited hours",Varied Access,True,TN9,0.285597,51.193956
+B46AEA0E-E373-4B4A-B96E-AFF00095865B,Screwfix,"Unit 12 Deacon Trading Estate, Vale Road, Tonbridge, TN9 1SU",restricted,Restricted access,Varied Access,True,TN9,0.286007,51.193849
+1F894E87-644C-481E-9FE9-B37200972BE9,Ipif - Deacon Trading Estate,"Deacon Trading Estate, Tonbridge, TN9 1SU",public247,"Public, 24/7",24/7 Access,True,TN9,0.284958,51.194
+A2487C50-860D-4832-BBDF-AE6300FD670F,Naos Floors Ltd,"16 Vale Rise, Tonbridge, TN9 1TB",public247,"Public, 24/7",24/7 Access,True,TN9,0.28814,51.19068
+C4CCF036-0E6F-4E65-A6C4-AF8900BEE5EC,Tonbridge Royal British Legion Club Ltd,"26 Priory Road, Tonbridge, TN9 2AS",public247,"Public, 24/7",24/7 Access,True,TN9,0.273819,51.19021
+95D77F8D-68C8-4E01-980E-B3FC00BBE3F8,Weald Of Kent Grammar School,"Weald Of Kent Girls Grammar School, Tudeley Lane, Tonbridge, TN9 2JP",restricted,Restricted access,Varied Access,True,TN9,0.280474,51.1841
+C70BAE6F-C9CD-4ADC-9F17-B3FC00C0F907,Weald Of Kent,"Weald Of Kent Girls Grammar School, Tudeley Lane, Tonbridge, TN9 2JP",restricted,Restricted access,Varied Access,True,TN9,0.282199,51.184281
+F86E1F80-BA97-41B4-B96F-AFCD00994B64,Tonbridge Grammar School For Girls Per The Head Mistress,"Tonbridge Grammar School For, Deakin Leas, Tonbridge, TN9 2JR",publicvar,"Public, limited hours",Varied Access,True,TN9,0.274732,51.183876
+E369C7F8-095C-4EBD-A35D-AFF200B55CA5,Tonbridge Grammar School For Girls Per The Head Mistress,"Tonbridge Grammar School, Deakin Leas, Tonbridge, TN9 2JR",restricted,Restricted access,Varied Access,True,TN9,0.274732,51.183876
+792C69EB-FA88-4670-89CA-AE99007AD141,St Stephens Church,"St Stephens Church, Waterloo Road, Tonbridge, TN9 2SN",public247,"Public, 24/7",24/7 Access,True,TN9,0.2686,51.19
